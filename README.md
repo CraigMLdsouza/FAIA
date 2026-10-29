@@ -120,11 +120,12 @@ secret** on both services in Render's environment settings. Generate one locally
 python -c "import secrets; print(secrets.token_urlsafe(48))"
 ```
 
-Keep the value private; do not commit it. The API and MCP services require
-`Authorization: Bearer <token>` on requests, except their minimal `/health`
-checks, which Render needs to access without credentials. REST API routes such
-as `/docs` are also protected. Configure `FAIA_CORS_ORIGINS` on the API service
-as a comma-separated list if a browser frontend needs cross-origin access.
+Keep the value private; do not commit it. The API and MCP services require an
+`Authorization: Bearer <FAIA_AUTH_TOKEN>` header on requests, except their
+minimal `/health` checks, which Render needs to access without credentials.
+REST API routes such as `/docs` are also protected. Configure
+`FAIA_CORS_ORIGINS` on the API service as a comma-separated list if a browser
+frontend needs cross-origin access.
 
 After deployment, the endpoints are:
 
@@ -136,6 +137,85 @@ Configure remote MCP clients to send the same bearer token in the HTTP
 initial deployment; for multiple independent users, put the services behind an
 OAuth-capable identity gateway before sharing them broadly. Anyone holding the
 shared token can search and modify the MCP metadata registry.
+
+### Current hosted endpoints
+
+The currently deployed Render services are:
+
+- REST API (`faia-2`): `https://faia-2.onrender.com`
+- MCP server (`faia-1`): `https://faia-1.onrender.com/mcp`
+- Health checks: `https://faia-2.onrender.com/health` and
+  `https://faia-1.onrender.com/health` (no authentication required)
+
+Both services use `FAIA_AUTH_TOKEN`. Keep the token in Render's environment
+configuration and in your client's local secret store; never paste a live
+token into documentation, source control, or a shared MCP configuration file.
+If a token has been exposed, rotate it in Render and update both services and
+clients.
+
+Render's free web services may spin down after inactivity, so the first
+request can take longer while a service starts. Check the relevant `/health`
+endpoint before starting a client session if the service has been idle.
+
+### Cursor remote MCP configuration
+
+Add a remote MCP server in Cursor's MCP settings, using the MCP URL above and
+an HTTP header:
+
+```text
+Authorization: Bearer <FAIA_AUTH_TOKEN>
+```
+
+For a Cursor configuration file that supports remote servers, use the
+following shape and replace the placeholder locally. Do not commit the
+resulting file with a real token:
+
+```json
+{
+  "mcpServers": {
+    "faia": {
+      "url": "https://faia-1.onrender.com/mcp",
+      "headers": {
+        "Authorization": "Bearer <FAIA_AUTH_TOKEN>"
+      }
+    }
+  }
+}
+```
+
+The MCP server exposes `search_tools`, `register_tool`,
+`list_registered_tools`, and `remove_registered_tool`. It stores and resolves
+tool metadata; it does not execute third-party tool code.
+
+### Verify the hosted services (PowerShell)
+
+Set `FAIA_AUTH_TOKEN` in the current PowerShell session without putting its
+value in a script or command history. The public health checks need no token:
+
+```powershell
+Invoke-RestMethod -Uri "https://faia-2.onrender.com/health"
+Invoke-RestMethod -Uri "https://faia-1.onrender.com/health"
+```
+
+Test an authenticated REST search:
+
+```powershell
+$headers = @{
+    Authorization = "Bearer $env:FAIA_AUTH_TOKEN"
+    "Content-Type" = "application/json"
+}
+$body = @{ query = "workflow automation" } | ConvertTo-Json
+
+Invoke-RestMethod `
+    -Uri "https://faia-2.onrender.com/search" `
+    -Method Post `
+    -Headers $headers `
+    -Body $body
+```
+
+For MCP clients, connect to `https://faia-1.onrender.com/mcp` with the same
+bearer header. Use an MCP client for the initialize handshake and subsequent
+protocol requests.
 
 Render hosting and its persistent disk may incur charges. The deployment
 configuration does not create a Render account or deploy services; complete the
