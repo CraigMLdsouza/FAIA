@@ -107,6 +107,40 @@ python mcp_server.py --transport streamable-http --host 127.0.0.1 --port 8001
 
 The MCP endpoint is `http://127.0.0.1:8001/mcp`. Both servers bind to loopback by default. Do not expose either service directly to an untrusted network; place it behind appropriate authentication and network controls before allowing remote access.
 
+## Host on Render
+
+`render.yaml` defines separate REST API and MCP web services. The MCP service
+uses a persistent disk for its local metadata registry. Deploy the Blueprint
+from the repository in Render after pushing the project to GitHub.
+
+Both services require `FAIA_AUTH_TOKEN` when deployed. Set the **same random
+secret** on both services in Render's environment settings. Generate one locally:
+
+```powershell
+python -c "import secrets; print(secrets.token_urlsafe(48))"
+```
+
+Keep the value private; do not commit it. The API and MCP services require
+`Authorization: Bearer <token>` on requests, except their minimal `/health`
+checks, which Render needs to access without credentials. REST API routes such
+as `/docs` are also protected. Configure `FAIA_CORS_ORIGINS` on the API service
+as a comma-separated list if a browser frontend needs cross-origin access.
+
+After deployment, the endpoints are:
+
+- REST API: `https://<faia-api-service>.onrender.com`
+- MCP: `https://<faia-mcp-service>.onrender.com/mcp`
+
+Configure remote MCP clients to send the same bearer token in the HTTP
+`Authorization` header. This shared-token setup is suitable for a trusted
+initial deployment; for multiple independent users, put the services behind an
+OAuth-capable identity gateway before sharing them broadly. Anyone holding the
+shared token can search and modify the MCP metadata registry.
+
+Render hosting and its persistent disk may incur charges. The deployment
+configuration does not create a Render account or deploy services; complete the
+Blueprint setup and set the secret in the Render dashboard.
+
 ## Refreshing the built-in catalog
 
 The checked-in `catalog_output/` files are the runtime index. To rebuild them from upstream MCP/tool repositories, run these steps from the FAIA directory:

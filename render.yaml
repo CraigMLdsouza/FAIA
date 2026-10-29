@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: faia-api
+    runtime: python
+    plan: starter
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: FAIA_REQUIRE_AUTH
+        value: "true"
+      - key: FAIA_AUTH_TOKEN
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.12.8
+
+  - type: web
+    name: faia-mcp
+    runtime: python
+    plan: starter
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python mcp_server.py --transport streamable-http --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    disk:
+      name: faia-registry
+      mountPath: /var/data/faia
+      sizeGB: 1
+    envVars:
+      - key: FAIA_REQUIRE_AUTH
+        value: "true"
+      - key: FAIA_AUTH_TOKEN
+        sync: false
+      - key: FAIA_TOOL_REGISTRY
+        value: /var/data/faia/registered_tools.json
+      - key: PYTHON_VERSION
+        value: 3.12.8

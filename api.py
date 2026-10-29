@@ -9,6 +9,7 @@ Applies patches: API-GM-001 through API-GM-005. Fully Certified.
 import sys
 import json
 from contextlib import asynccontextmanager
+import os
 from typing import Any, Dict, List, Optional
 
 # Production Application Core Dependency Wrappers
@@ -16,6 +17,7 @@ try:
     from fastapi import FastAPI, HTTPException, status, Path
     from pydantic import BaseModel, ConfigDict, Field
     from fastapi.middleware.cors import CORSMiddleware
+    from auth import BearerTokenMiddleware, validate_auth_configuration
 except ImportError:
     raise ImportError(
         "[CRITICAL INITIALIZATION FAILURE] fastapi and pydantic are mandatory production runtime dependencies. "
@@ -103,6 +105,7 @@ async def faia_platform_lifespan(app: FastAPI):
     """
     sys.stderr.write(" -> Initializing internal catalog mappings during application server bootstrap loops...\n")
     try:
+        validate_auth_configuration()
         state.resolver = FAIARepositoryResolver()
         state.formatter = ResultFormatter()
         
@@ -138,11 +141,19 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"], # Your Frontend URL
+    allow_origins=[
+        origin.strip()
+        for origin in os.environ.get(
+            "FAIA_CORS_ORIGINS",
+            "http://localhost:3000,http://127.0.0.1:3000",
+        ).split(",")
+        if origin.strip()
+    ],
     allow_credentials=True,
     allow_methods=["*"],  # Allows POST, OPTIONS, GET, etc.
     allow_headers=["*"],  # Allows Content-Type, Authorization, etc.
 )
+app.add_middleware(BearerTokenMiddleware, exempt_paths={"/health"})
 
 # =====================================================================
 # HTTP Service Routes Implementations

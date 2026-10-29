@@ -7,7 +7,12 @@ import os
 from typing import Any
 
 from mcp.server.fastmcp import FastMCP
+from starlette.applications import Starlette
+from starlette.requests import Request
+from starlette.responses import JSONResponse
+from starlette.routing import Route
 
+from auth import BearerTokenMiddleware, validate_auth_configuration
 from repository_resolver import FAIARepositoryResolver
 from result_formatter import ResultFormatter
 from tool_registry import ToolRegistry
@@ -88,6 +93,19 @@ def create_server(
     return server
 
 
+def create_http_app(server: FastMCP) -> Starlette:
+    """Create the authenticated Streamable HTTP app with an unauthenticated health check."""
+    validate_auth_configuration()
+    app = server.streamable_http_app()
+
+    async def health(_request: Request) -> JSONResponse:
+        return JSONResponse({"status": "HEALTHY", "service": "FAIA MCP"})
+
+    app.routes.append(Route("/health", health, methods=["GET"]))
+    app.add_middleware(BearerTokenMiddleware, exempt_paths={"/health"})
+    return app
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Run FAIA's MCP discovery and local metadata registration server."
@@ -112,7 +130,14 @@ def main() -> None:
     args = parser.parse_args()
 
     server = create_server(host=args.host, port=args.port)
-    server.run(transport=args.transport)
+    if args.transport == "stdio":
+        server.run(transport="stdio")
+        return
+
+    import uvicorn
+
+    app = create_http_app(server)
+    uvicorn.run(app, host=args.host, port=args.port)
 
 
 if __name__ == "__main__":
