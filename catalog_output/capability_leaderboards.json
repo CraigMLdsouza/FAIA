@@ -1,0 +1,175 @@
+{
+  "CREATE_APP": [
+    "heroku",
+    "digitalocean"
+  ],
+  "CREATE_CREDENTIAL": [
+    "illuminaresolutions"
+  ],
+  "CREATE_DOCUMENT": [
+    "illuminaresolutions"
+  ],
+  "CREATE_FILE": [
+    "modelcontextprotocol"
+  ],
+  "CREATE_MAINTENANCE": [
+    "heroku"
+  ],
+  "CREATE_MESSAGE": [
+    "meilisearch"
+  ],
+  "CREATE_METADATA_TAG": [
+    "illuminaresolutions"
+  ],
+  "CREATE_MODEL": [
+    "illuminaresolutions"
+  ],
+  "CREATE_SEARCH": [
+    "illuminaresolutions",
+    "meilisearch"
+  ],
+  "CREATE_SYSTEM": [
+    "illuminaresolutions",
+    "modelcontextprotocol"
+  ],
+  "CREATE_VECTOR": [
+    "modelcontextprotocol"
+  ],
+  "CREATE_WORKFLOW": [
+    "illuminaresolutions",
+    "meilisearch",
+    "heroku"
+  ],
+  "DELETE_APP": [
+    "digitalocean"
+  ],
+  "DELETE_CREDENTIAL": [
+    "illuminaresolutions"
+  ],
+  "DELETE_DB_ADMIN": [
+    "illuminaresolutions"
+  ],
+  "DELETE_MAINTENANCE": [
+    "meilisearch"
+  ],
+  "DELETE_METADATA_TAG": [
+    "illuminaresolutions"
+  ],
+  "DELETE_SEARCH": [
+    "meilisearch"
+  ],
+  "DELETE_SYSTEM": [
+    "illuminaresolutions",
+    "digitalocean",
+    "modelcontextprotocol"
+  ],
+  "DELETE_VECTOR": [
+    "modelcontextprotocol"
+  ],
+  "EXECUTE_APP": [
+    "heroku"
+  ],
+  "EXECUTE_CREDENTIAL": [
+    "heroku"
+  ],
+  "EXECUTE_DB_ADMIN": [
+    "heroku"
+  ],
+  "EXECUTE_DOCUMENT": [
+    "upstash"
+  ],
+  "EXECUTE_FILE": [
+    "modelcontextprotocol"
+  ],
+  "EXECUTE_MODEL": [
+    "heroku",
+    "illuminaresolutions"
+  ],
+  "EXECUTE_SEARCH": [
+    "meilisearch",
+    "openbnb_org"
+  ],
+  "EXECUTE_SYSTEM": [
+    "illuminaresolutions",
+    "modelcontextprotocol",
+    "upstash"
+  ],
+  "READ_ADDON": [
+    "heroku"
+  ],
+  "READ_APP": [
+    "heroku",
+    "digitalocean"
+  ],
+  "READ_CREDENTIAL": [
+    "illuminaresolutions"
+  ],
+  "READ_DB_ADMIN": [
+    "heroku",
+    "illuminaresolutions",
+    "meilisearch"
+  ],
+  "READ_FILE": [
+    "modelcontextprotocol"
+  ],
+  "READ_ISSUE": [
+    "meilisearch"
+  ],
+  "READ_MAINTENANCE": [
+    "heroku"
+  ],
+  "READ_MESSAGE": [
+    "heroku",
+    "meilisearch"
+  ],
+  "READ_METADATA_TAG": [
+    "illuminaresolutions"
+  ],
+  "READ_MODEL": [
+    "langfuse"
+  ],
+  "READ_SEARCH": [
+    "meilisearch"
+  ],
+  "READ_SYSTEM": [
+    "illuminaresolutions",
+    "digitalocean",
+    "modelcontextprotocol",
+    "openbnb_org"
+  ],
+  "READ_VECTOR": [
+    "modelcontextprotocol"
+  ],
+  "READ_WORKFLOW": [
+    "illuminaresolutions",
+    "heroku"
+  ],
+  "UPDATE_ADDON": [
+    "digitalocean"
+  ],
+  "UPDATE_APP": [
+    "heroku"
+  ],
+  "UPDATE_DATABASE": [
+    "heroku"
+  ],
+  "UPDATE_FILE": [
+    "modelcontextprotocol"
+  ],
+  "UPDATE_MESSAGE": [
+    "meilisearch"
+  ],
+  "UPDATE_METADATA_TAG": [
+    "illuminaresolutions"
+  ],
+  "UPDATE_SEARCH": [
+    "meilisearch"
+  ],
+  "UPDATE_SYSTEM": [
+    "illuminaresolutions"
+  ],
+  "UPDATE_WORKFLOW": [
+    "heroku",
+    "illuminaresolutions"
+  ]
+}

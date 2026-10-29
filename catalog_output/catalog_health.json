@@ -1,0 +1,13 @@
+{
+  "ontology_match_rate": 0.882,
+  "classified_tools": 186,
+  "unclassified_tools": 11,
+  "classification_rate": 0.9442,
+  "provider_diversity": {
+    "unique_providers": 8,
+    "unique_servers": 8,
+    "unique_repositories": 8,
+    "provider_diversity_score": 8.0
+  },
+  "freeze_gate_status": "PASSED_AND_LOCKED"
+}

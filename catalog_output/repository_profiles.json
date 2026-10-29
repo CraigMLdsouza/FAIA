@@ -1,0 +1,50 @@
+{
+  "https://github.com/digitalocean/digitalocean-mcp": {
+    "repository_url": "https://github.com/digitalocean/digitalocean-mcp",
+    "server_name": "digitalocean_mcp",
+    "tool_count": 10,
+    "capability_count": 6
+  },
+  "https://github.com/heroku/heroku-mcp-server": {
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "server_name": "heroku_mcp_server",
+    "tool_count": 37,
+    "capability_count": 16
+  },
+  "https://github.com/illuminaresolutions/n8n-mcp-server": {
+    "repository_url": "https://github.com/illuminaresolutions/n8n-mcp-server",
+    "server_name": "n8n_mcp_server",
+    "tool_count": 34,
+    "capability_count": 21
+  },
+  "https://github.com/langfuse/mcp-server-langfuse": {
+    "repository_url": "https://github.com/langfuse/mcp-server-langfuse",
+    "server_name": "mcp_server_langfuse",
+    "tool_count": 2,
+    "capability_count": 1
+  },
+  "https://github.com/meilisearch/meilisearch-mcp": {
+    "repository_url": "https://github.com/meilisearch/meilisearch-mcp",
+    "server_name": "meilisearch_mcp",
+    "tool_count": 26,
+    "capability_count": 12
+  },
+  "https://github.com/modelcontextprotocol/servers": {
+    "repository_url": "https://github.com/modelcontextprotocol/servers",
+    "server_name": "servers",
+    "tool_count": 26,
+    "capability_count": 11
+  },
+  "https://github.com/openbnb-org/mcp-server-airbnb": {
+    "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+    "server_name": "mcp_server_airbnb",
+    "tool_count": 2,
+    "capability_count": 2
+  },
+  "https://github.com/upstash/context7": {
+    "repository_url": "https://github.com/upstash/context7",
+    "server_name": "context7",
+    "tool_count": 2,
+    "capability_count": 2
+  }
+}

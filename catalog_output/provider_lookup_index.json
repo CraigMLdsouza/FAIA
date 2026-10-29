@@ -1,0 +1,42 @@
+{
+  "digitalocean": {
+    "archetype": "GENERAL",
+    "provider_rank": 5,
+    "capability_count": 6
+  },
+  "heroku": {
+    "archetype": "CLOUD_HOSTING",
+    "provider_rank": 2,
+    "capability_count": 16
+  },
+  "illuminaresolutions": {
+    "archetype": "GENERAL",
+    "provider_rank": 1,
+    "capability_count": 21
+  },
+  "langfuse": {
+    "archetype": "GENERAL",
+    "provider_rank": 8,
+    "capability_count": 1
+  },
+  "meilisearch": {
+    "archetype": "GENERAL",
+    "provider_rank": 3,
+    "capability_count": 12
+  },
+  "modelcontextprotocol": {
+    "archetype": "GENERAL",
+    "provider_rank": 4,
+    "capability_count": 11
+  },
+  "openbnb_org": {
+    "archetype": "GENERAL",
+    "provider_rank": 6,
+    "capability_count": 2
+  },
+  "upstash": {
+    "archetype": "GENERAL",
+    "provider_rank": 7,
+    "capability_count": 2
+  }
+}

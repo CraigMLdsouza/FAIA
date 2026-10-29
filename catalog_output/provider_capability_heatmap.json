@@ -1,0 +1,89 @@
+{
+  "digitalocean": {
+    "CREATE_APP": true,
+    "DELETE_APP": true,
+    "DELETE_SYSTEM": true,
+    "READ_APP": true,
+    "READ_SYSTEM": true,
+    "UPDATE_ADDON": true
+  },
+  "heroku": {
+    "CREATE_APP": true,
+    "CREATE_MAINTENANCE": true,
+    "CREATE_WORKFLOW": true,
+    "EXECUTE_APP": true,
+    "EXECUTE_CREDENTIAL": true,
+    "EXECUTE_DB_ADMIN": true,
+    "EXECUTE_MODEL": true,
+    "READ_ADDON": true,
+    "READ_APP": true,
+    "READ_DB_ADMIN": true,
+    "READ_MAINTENANCE": true,
+    "READ_MESSAGE": true,
+    "READ_WORKFLOW": true,
+    "UPDATE_APP": true,
+    "UPDATE_DATABASE": true,
+    "UPDATE_WORKFLOW": true
+  },
+  "illuminaresolutions": {
+    "CREATE_CREDENTIAL": true,
+    "CREATE_DOCUMENT": true,
+    "CREATE_METADATA_TAG": true,
+    "CREATE_MODEL": true,
+    "CREATE_SEARCH": true,
+    "CREATE_SYSTEM": true,
+    "CREATE_WORKFLOW": true,
+    "DELETE_CREDENTIAL": true,
+    "DELETE_DB_ADMIN": true,
+    "DELETE_METADATA_TAG": true,
+    "DELETE_SYSTEM": true,
+    "EXECUTE_MODEL": true,
+    "EXECUTE_SYSTEM": true,
+    "READ_CREDENTIAL": true,
+    "READ_DB_ADMIN": true,
+    "READ_METADATA_TAG": true,
+    "READ_SYSTEM": true,
+    "READ_WORKFLOW": true,
+    "UPDATE_METADATA_TAG": true,
+    "UPDATE_SYSTEM": true,
+    "UPDATE_WORKFLOW": true
+  },
+  "langfuse": {
+    "READ_MODEL": true
+  },
+  "meilisearch": {
+    "CREATE_MESSAGE": true,
+    "CREATE_SEARCH": true,
+    "CREATE_WORKFLOW": true,
+    "DELETE_MAINTENANCE": true,
+    "DELETE_SEARCH": true,
+    "EXECUTE_SEARCH": true,
+    "READ_DB_ADMIN": true,
+    "READ_ISSUE": true,
+    "READ_MESSAGE": true,
+    "READ_SEARCH": true,
+    "UPDATE_MESSAGE": true,
+    "UPDATE_SEARCH": true
+  },
+  "modelcontextprotocol": {
+    "CREATE_FILE": true,
+    "CREATE_SYSTEM": true,
+    "CREATE_VECTOR": true,
+    "DELETE_SYSTEM": true,
+    "DELETE_VECTOR": true,
+    "EXECUTE_FILE": true,
+    "EXECUTE_SYSTEM": true,
+    "READ_FILE": true,
+    "READ_SYSTEM": true,
+    "READ_VECTOR": true,
+    "UPDATE_FILE": true
+  },
+  "openbnb_org": {
+    "EXECUTE_SEARCH": true,
+    "READ_SYSTEM": true
+  },
+  "upstash": {
+    "EXECUTE_DOCUMENT": true,
+    "EXECUTE_SYSTEM": true
+  }
+}

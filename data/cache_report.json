@@ -1,0 +1,13 @@
+{
+  "etag_304": 0,
+  "generated_at": "2026-06-21T11:13:53.762971+00:00",
+  "hit_rate": 0.0097,
+  "hits": 3,
+  "misses": 306,
+  "network_requests": 153,
+  "warmup_validation": {
+    "network_reduction_target": ">70%",
+    "second_run_target_hit_rate": ">80%"
+  },
+  "writes": 148
+}

@@ -1,0 +1,138 @@
+{
+        "meta": {"ontology_version": "v2.2_enterprise_hardened", "registry_checksum": "e9b8c7d6f5"},
+        "resource_ontology": {
+
+            "ISSUE": ["issue", "ticket", "bug", "incident", "story", "task"],
+            "DOCUMENT": ["document", "page", "wiki", "note", "markdown", "documentation"],
+            "FILE": ["file", "blob", "path", "dir", "directory", "content", "filepath", "directories", "tree", "sizes"],
+            "MESSAGE": ["message", "chat", "channel", "slack", "slack_msg", "thread", "logs"],
+            "SEARCH": ["search", "google", "brave", "web", "fetch_url", "scrape", "url", "html", "website", "site"],
+            "VECTOR": ["embedding", "vector", "collection", "chroma", "pinecone", "graph", "entities", "relations"],
+            "MODEL": ["llm", "completion", "generate", "prompt", "template", "inference", "prompts", "tool"],
+            
+            "APP": ["app", "apps", "dyno", "heroku", "slug", "regions", "spaces", "dynos", "info"],
+            "ADDON": ["addon", "addons", "plans", "services", "destinations"],
+            "MAINTENANCE": ["maintenance", "on", "off"],
+            
+            "DATABASE": ["table", "query", "row", "record", "sql", "postgres", "mysql", "sqlite", "db", "schema"],
+            "DB_ADMIN": ["backups", "locks", "outliers", "ps", "kill", "upgrade", "maintenance", "list", "scale"],
+
+            "WORKFLOW": ["workflow", "workflows", "pipeline", "pipelines", "execution", "executions", "create", "promote"],
+            "CREDENTIAL": ["credential", "credentials", "schema"],
+            "METADATA_TAG": ["tag", "tags"],
+            "SYSTEM": ["shell", "terminal", "command", "process", "env", "fs_read", "exec", "script", "id", "nodes", "observations", "n", "init_n8n", "n8n_integration", "user", "users", "teams", "project"]
+        },
+        "verb_equivalence": {
+            "READ": ["get", "fetch", "retrieve", "view", "read", "select", "scan", "cat", "show", "download", "query", "list", "open"],
+            "CREATE": ["create", "add", "post", "insert", "write", "generate", "log", "make", "mkdir", "init", "provision", "deploy", "cancel"],
+            "UPDATE": ["update", "edit", "modify", "patch", "upsert", "set", "amend", "rename", "scale", "promote"],
+            "DELETE": ["delete", "remove", "archive", "destroy", "drop", "rm", "rmdir", "kill", "cancel"],
+            "EXECUTE": ["execute", "run", "bash", "trigger", "eval", "search", "query", "call", "apply", "test", "pg_backups", "pg_info", "pg_kill", "pg_locks", "pg_maintenance", "pg_outliers", "pg_ps", "pg_upgrade", "echo"]
+        },
+        "resource_group_mapping": {
+            "ISSUE": "TASK_MANAGEMENT",
+            "DOCUMENT": "DOCUMENTATION",
+            "FILE": "FILE_STORAGE",
+            "MESSAGE": "MESSAGING",
+            "SEARCH": "WEB_RESEARCH",
+            "VECTOR": "VECTOR_DATABASE",
+            "MODEL": "AI_OPERATIONS",
+            "APP": "CLOUD_DEPLOYMENT",
+            "ADDON": "CLOUD_DEPLOYMENT",
+            "MAINTENANCE": "CLOUD_DEPLOYMENT",
+            "DATABASE": "RELATIONAL_DB",
+            "DB_ADMIN": "DATABASE_GOVERNANCE",
+            "WORKFLOW": "WORKFLOW_AUTOMATION",
+            "CREDENTIAL": "CREDENTIAL_MANAGEMENT",
+            "METADATA_TAG": "TAXONOMY_MANAGEMENT",
+            "SYSTEM": "SYSTEM_AUTOMATION"
+        },
+        "domain_mapping": {
+            "TASK_MANAGEMENT": "ISSUE_OPERATIONS",
+            "DOCUMENTATION": "KNOWLEDGE_SYSTEMS",
+            "FILE_STORAGE": "INFRASTRUCTURE",
+            "MESSAGING": "COMMUNICATION",
+            "WEB_RESEARCH": "KNOWLEDGE_SYSTEMS",
+            "VECTOR_DATABASE": "AI_ENGINEERING",
+            "AI_OPERATIONS": "AI_ENGINEERING",
+            "CLOUD_DEPLOYMENT": "INFRASTRUCTURE",
+            "RELATIONAL_DB": "KNOWLEDGE_SYSTEMS",
+            "DATABASE_GOVERNANCE": "INFRASTRUCTURE",
+            "WORKFLOW_AUTOMATION": "INFRASTRUCTURE",
+            "CREDENTIAL_MANAGEMENT": "CORE_IDENTITY",
+            "TAXONOMY_MANAGEMENT": "ISSUE_OPERATIONS",
+            "SYSTEM_AUTOMATION": "INFRASTRUCTURE"
+        },
+        "capability_classes": {
+            "TASK_MANAGEMENT": "CORE_TASK_ACTIONS",
+            "DOCUMENTATION": "KNOWLEDGE_LOOKUP",
+            "FILE_STORAGE": "STORAGE_OPERATIONS",
+            "MESSAGING": "CHAT_OPERATIONS",
+            "RELATIONAL_DB": "DATA_STORE_ACCESS",
+            "WEB_RESEARCH": "EXTERNAL_SEARCH",
+            "VECTOR_DATABASE": "EMBEDDING_MANAGEMENT",
+            "AI_OPERATIONS": "MODEL_INFERENCE",
+            "CLOUD_DEPLOYMENT": "PLATFORM_PROVISIONING",
+            "DATABASE_GOVERNANCE": "DBA_MAINTENANCE",
+            "WORKFLOW_AUTOMATION": "PIPELINE_ORCHESTRATION",
+            "CREDENTIAL_MANAGEMENT": "ACCESS_CONTROL",
+            "TAXONOMY_MANAGEMENT": "METADATA_GOVERNANCE",
+            "SYSTEM_AUTOMATION": "OS_EXECUTION"
+        },
+        "intent_categories": {
+            "ISSUE_OPERATIONS": "Project Management",
+            "KNOWLEDGE_SYSTEMS": "Research & Insights",
+            "COMMUNICATION": "Team Collaboration",
+            "AI_ENGINEERING": "AI Development",
+            "INFRASTRUCTURE": "DevOps & Core Systems",
+            "CORE_IDENTITY": "Security & Access Control"
+        },
+        "provider_archetypes": {
+            "github": "DEVELOPER_PLATFORM",
+            "jira": "ISSUE_TRACKING",
+            "slack": "MESSAGING",
+            "postgres": "DATABASE",
+            "openai": "AI_PLATFORM",
+            "heroku": "CLOUD_HOSTING"
+        },
+        "capability_search_terms": {
+            "READ_ISSUE": [
+                "lookup ticket attributes",
+                "incident trace summary view",
+                "issue",
+                "ticket",
+                "tickets",
+                "incident",
+                "incidents",
+                "task",
+                "tasks"
+            ],
+
+            "EXECUTE_SEARCH": [
+                "web search",
+                "google pages",
+                "find online information",
+                "query",
+                "queries",
+                "lookup",
+                "find"
+            ],
+
+            "READ_SEARCH": [
+                "query",
+                "queries",
+                "lookup",
+                "search"
+            ],
+
+            "CREATE_WORKFLOW": [
+                "provision automation pipeline",
+                "n8n trigger instantiation"
+            ],
+
+            "CREATE_APP": [
+                "deploy dyno instance",
+                "heroku workspace initialization"
+            ]
+        }
+    }

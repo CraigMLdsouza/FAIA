@@ -1,0 +1,163 @@
+{
+  "count": 10,
+  "generated_at": "2026-06-21T11:13:53.762971+00:00",
+  "rejected_repositories": [
+    {
+      "provider_family": "github",
+      "rejection_reason": "no_candidate_files_after_tree",
+      "repository_score": 20,
+      "repository_url": "https://github.com/matanyemini/bitbucket-mcp-server",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20
+      },
+      "server_name": "bitbucket-mcp-server"
+    },
+    {
+      "provider_family": "github",
+      "rejection_reason": "no_candidate_files_after_tree",
+      "repository_score": 20,
+      "repository_url": "https://github.com/pulumi/mcp-server",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20
+      },
+      "server_name": "mcp-server"
+    },
+    {
+      "accepted_metadata_stage": false,
+      "capability_provider": "docker",
+      "provider_family": "github",
+      "rejection_reason": "below_acceptance_threshold",
+      "repository_class": "UNKNOWN",
+      "repository_score": 5,
+      "repository_url": "https://github.com/docker/mcp-gateway",
+      "scoring_signals": {
+        "popular_repository": 5
+      },
+      "server_name": "mcp-gateway",
+      "trust_tier": "verified_publisher"
+    },
+    {
+      "provider_family": "github",
+      "rejection_reason": "below_acceptance_threshold",
+      "repository_score": 5,
+      "repository_url": "https://github.com/docker/mcp-gateway",
+      "scoring_signals": {
+        "popular_repository": 5
+      },
+      "server_name": "mcp-gateway"
+    },
+    {
+      "accepted_metadata_stage": false,
+      "capability_provider": "firebase",
+      "provider_family": "github",
+      "rejection_reason": "below_acceptance_threshold",
+      "repository_class": "UNKNOWN",
+      "repository_score": 0,
+      "repository_url": "https://github.com/firebase/firebase-mcp",
+      "scoring_signals": {},
+      "server_name": "firebase-mcp",
+      "trust_tier": "verified_publisher"
+    },
+    {
+      "provider_family": "github",
+      "rejection_reason": "below_acceptance_threshold",
+      "repository_score": 0,
+      "repository_url": "https://github.com/firebase/firebase-mcp",
+      "scoring_signals": {},
+      "server_name": "firebase-mcp"
+    },
+    {
+      "accepted_metadata_stage": false,
+      "capability_provider": "modelcontextprotocol",
+      "provider_family": "github",
+      "rejection_reason": "negative_repository_class",
+      "repository_class": "SDK",
+      "repository_score": -15,
+      "repository_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5,
+        "sdk_repository": -40
+      },
+      "server_name": "python-sdk",
+      "trust_tier": "verified_publisher"
+    },
+    {
+      "accepted_metadata_stage": false,
+      "capability_provider": "modelcontextprotocol",
+      "provider_family": "github",
+      "rejection_reason": "negative_repository_class",
+      "repository_class": "SDK",
+      "repository_score": -15,
+      "repository_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5,
+        "sdk_repository": -40
+      },
+      "server_name": "typescript-sdk",
+      "trust_tier": "verified_publisher"
+    },
+    {
+      "provider_family": "github",
+      "rejection_reason": "negative_repository_class",
+      "repository_score": -15,
+      "repository_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5,
+        "sdk_repository": -40
+      },
+      "server_name": "python-sdk"
+    },
+    {
+      "provider_family": "github",
+      "rejection_reason": "negative_repository_class",
+      "repository_score": -15,
+      "repository_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "scoring_signals": {
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5,
+        "sdk_repository": -40
+      },
+      "server_name": "typescript-sdk"
+    }
+  ],
+  "score_distribution": {
+    "histogram": [
+      [
+        "55",
+        6
+      ],
+      [
+        "25",
+        4
+      ],
+      [
+        "20",
+        4
+      ],
+      [
+        "-15",
+        2
+      ],
+      [
+        "75",
+        2
+      ],
+      [
+        "5",
+        1
+      ],
+      [
+        "0",
+        1
+      ]
+    ],
+    "max": 75,
+    "min": -15,
+    "p25": 20,
+    "p50": 25,
+    "p75": 55
+  }
+}

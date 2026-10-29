@@ -1,0 +1,199 @@
+{
+  "github_com_digitalocean_digitalocean_mcp": {
+    "capabilities": [
+      "CREATE_APP",
+      "DELETE_APP",
+      "DELETE_SYSTEM",
+      "READ_APP",
+      "READ_SYSTEM",
+      "UPDATE_ADDON"
+    ],
+    "capability_count": 6,
+    "domains": [
+      "INFRASTRUCTURE"
+    ],
+    "provider_id": "digitalocean",
+    "provider_rank": 5,
+    "repository_id": "github_com_digitalocean_digitalocean_mcp",
+    "repository_name": "digitalocean-mcp",
+    "repository_url": "https://github.com/digitalocean/digitalocean-mcp",
+    "tool_count": 10
+  },
+  "github_com_heroku_heroku_mcp_server": {
+    "capabilities": [
+      "CREATE_APP",
+      "CREATE_MAINTENANCE",
+      "CREATE_WORKFLOW",
+      "EXECUTE_APP",
+      "EXECUTE_CREDENTIAL",
+      "EXECUTE_DB_ADMIN",
+      "EXECUTE_MODEL",
+      "READ_ADDON",
+      "READ_APP",
+      "READ_DB_ADMIN",
+      "READ_MAINTENANCE",
+      "READ_MESSAGE",
+      "READ_WORKFLOW",
+      "UPDATE_APP",
+      "UPDATE_DATABASE",
+      "UPDATE_WORKFLOW"
+    ],
+    "capability_count": 16,
+    "domains": [
+      "AI_ENGINEERING",
+      "COMMUNICATION",
+      "CORE_IDENTITY",
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "provider_id": "heroku",
+    "provider_rank": 2,
+    "repository_id": "github_com_heroku_heroku_mcp_server",
+    "repository_name": "heroku-mcp-server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "tool_count": 53
+  },
+  "github_com_illuminaresolutions_n8n_mcp_server": {
+    "capabilities": [
+      "CREATE_CREDENTIAL",
+      "CREATE_DOCUMENT",
+      "CREATE_METADATA_TAG",
+      "CREATE_MODEL",
+      "CREATE_SEARCH",
+      "CREATE_SYSTEM",
+      "CREATE_WORKFLOW",
+      "DELETE_CREDENTIAL",
+      "DELETE_DB_ADMIN",
+      "DELETE_METADATA_TAG",
+      "DELETE_SYSTEM",
+      "EXECUTE_MODEL",
+      "EXECUTE_SYSTEM",
+      "READ_CREDENTIAL",
+      "READ_DB_ADMIN",
+      "READ_METADATA_TAG",
+      "READ_SYSTEM",
+      "READ_WORKFLOW",
+      "UPDATE_METADATA_TAG",
+      "UPDATE_SYSTEM",
+      "UPDATE_WORKFLOW"
+    ],
+    "capability_count": 21,
+    "domains": [
+      "AI_ENGINEERING",
+      "CORE_IDENTITY",
+      "INFRASTRUCTURE",
+      "ISSUE_OPERATIONS",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "provider_id": "illuminaresolutions",
+    "provider_rank": 1,
+    "repository_id": "github_com_illuminaresolutions_n8n_mcp_server",
+    "repository_name": "n8n-mcp-server",
+    "repository_url": "https://github.com/illuminaresolutions/n8n-mcp-server",
+    "tool_count": 67
+  },
+  "github_com_langfuse_mcp_server_langfuse": {
+    "capabilities": [
+      "READ_MODEL"
+    ],
+    "capability_count": 1,
+    "domains": [
+      "AI_ENGINEERING"
+    ],
+    "provider_id": "langfuse",
+    "provider_rank": 8,
+    "repository_id": "github_com_langfuse_mcp_server_langfuse",
+    "repository_name": "mcp-server-langfuse",
+    "repository_url": "https://github.com/langfuse/mcp-server-langfuse",
+    "tool_count": 2
+  },
+  "github_com_meilisearch_meilisearch_mcp": {
+    "capabilities": [
+      "CREATE_MESSAGE",
+      "CREATE_SEARCH",
+      "CREATE_WORKFLOW",
+      "DELETE_MAINTENANCE",
+      "DELETE_SEARCH",
+      "EXECUTE_SEARCH",
+      "READ_DB_ADMIN",
+      "READ_ISSUE",
+      "READ_MESSAGE",
+      "READ_SEARCH",
+      "UPDATE_MESSAGE",
+      "UPDATE_SEARCH"
+    ],
+    "capability_count": 12,
+    "domains": [
+      "COMMUNICATION",
+      "INFRASTRUCTURE",
+      "ISSUE_OPERATIONS",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "provider_id": "meilisearch",
+    "provider_rank": 3,
+    "repository_id": "github_com_meilisearch_meilisearch_mcp",
+    "repository_name": "meilisearch-mcp",
+    "repository_url": "https://github.com/meilisearch/meilisearch-mcp",
+    "tool_count": 26
+  },
+  "github_com_modelcontextprotocol_servers": {
+    "capabilities": [
+      "CREATE_FILE",
+      "CREATE_SYSTEM",
+      "CREATE_VECTOR",
+      "DELETE_SYSTEM",
+      "DELETE_VECTOR",
+      "EXECUTE_FILE",
+      "EXECUTE_SYSTEM",
+      "READ_FILE",
+      "READ_SYSTEM",
+      "READ_VECTOR",
+      "UPDATE_FILE"
+    ],
+    "capability_count": 11,
+    "domains": [
+      "AI_ENGINEERING",
+      "INFRASTRUCTURE"
+    ],
+    "provider_id": "modelcontextprotocol",
+    "provider_rank": 4,
+    "repository_id": "github_com_modelcontextprotocol_servers",
+    "repository_name": "servers",
+    "repository_url": "https://github.com/modelcontextprotocol/servers",
+    "tool_count": 23
+  },
+  "github_com_modelcontextprotocol_servers_tree_main_src_openbnb_org": {
+    "capabilities": [
+      "EXECUTE_SEARCH",
+      "READ_SYSTEM"
+    ],
+    "capability_count": 2,
+    "domains": [
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "provider_id": "openbnb_org",
+    "provider_rank": 6,
+    "repository_id": "github_com_modelcontextprotocol_servers_tree_main_src_openbnb_org",
+    "repository_name": "servers",
+    "repository_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/openbnb_org",
+    "tool_count": 3
+  },
+  "github_com_upstash_context7": {
+    "capabilities": [
+      "EXECUTE_DOCUMENT",
+      "EXECUTE_SYSTEM"
+    ],
+    "capability_count": 2,
+    "domains": [
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "provider_id": "upstash",
+    "provider_rank": 7,
+    "repository_id": "github_com_upstash_context7",
+    "repository_name": "context7",
+    "repository_url": "https://github.com/upstash/context7",
+    "tool_count": 2
+  }
+}

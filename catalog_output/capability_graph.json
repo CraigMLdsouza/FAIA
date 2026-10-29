@@ -1,0 +1,2589 @@
+{
+  "nodes": [
+    {
+      "id": "CREATE_APP",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.692
+      }
+    },
+    {
+      "id": "CREATE_CREDENTIAL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5489
+      }
+    },
+    {
+      "id": "CREATE_DOCUMENT",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "CREATE_FILE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.6258
+      }
+    },
+    {
+      "id": "CREATE_MAINTENANCE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "CREATE_MESSAGE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4529
+      }
+    },
+    {
+      "id": "CREATE_METADATA_TAG",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4529
+      }
+    },
+    {
+      "id": "CREATE_MODEL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4858
+      }
+    },
+    {
+      "id": "CREATE_SEARCH",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5771
+      }
+    },
+    {
+      "id": "CREATE_SYSTEM",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7326
+      }
+    },
+    {
+      "id": "CREATE_VECTOR",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.6538
+      }
+    },
+    {
+      "id": "CREATE_WORKFLOW",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7826
+      }
+    },
+    {
+      "id": "DELETE_APP",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "DELETE_CREDENTIAL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5489
+      }
+    },
+    {
+      "id": "DELETE_DB_ADMIN",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "DELETE_MAINTENANCE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4529
+      }
+    },
+    {
+      "id": "DELETE_METADATA_TAG",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "DELETE_SEARCH",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4138
+      }
+    },
+    {
+      "id": "DELETE_SYSTEM",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.8355
+      }
+    },
+    {
+      "id": "DELETE_VECTOR",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.6538
+      }
+    },
+    {
+      "id": "EXECUTE_APP",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4933
+      }
+    },
+    {
+      "id": "EXECUTE_CREDENTIAL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.3609
+      }
+    },
+    {
+      "id": "EXECUTE_DB_ADMIN",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4533
+      }
+    },
+    {
+      "id": "EXECUTE_DOCUMENT",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "EXECUTE_FILE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5569
+      }
+    },
+    {
+      "id": "EXECUTE_MODEL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5331
+      }
+    },
+    {
+      "id": "EXECUTE_SEARCH",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5861
+      }
+    },
+    {
+      "id": "EXECUTE_SYSTEM",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7083
+      }
+    },
+    {
+      "id": "READ_ADDON",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4738
+      }
+    },
+    {
+      "id": "READ_APP",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7924
+      }
+    },
+    {
+      "id": "READ_CREDENTIAL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5929
+      }
+    },
+    {
+      "id": "READ_DB_ADMIN",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7926
+      }
+    },
+    {
+      "id": "READ_FILE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.7231
+      }
+    },
+    {
+      "id": "READ_ISSUE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4529
+      }
+    },
+    {
+      "id": "READ_MAINTENANCE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "READ_MESSAGE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5811
+      }
+    },
+    {
+      "id": "READ_METADATA_TAG",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5148
+      }
+    },
+    {
+      "id": "READ_MODEL",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4738
+      }
+    },
+    {
+      "id": "READ_SEARCH",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5245
+      }
+    },
+    {
+      "id": "READ_SYSTEM",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.88
+      }
+    },
+    {
+      "id": "READ_VECTOR",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5569
+      }
+    },
+    {
+      "id": "READ_WORKFLOW",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.691
+      }
+    },
+    {
+      "id": "UPDATE_ADDON",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4329
+      }
+    },
+    {
+      "id": "UPDATE_APP",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4658
+      }
+    },
+    {
+      "id": "UPDATE_DATABASE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5089
+      }
+    },
+    {
+      "id": "UPDATE_FILE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5658
+      }
+    },
+    {
+      "id": "UPDATE_MESSAGE",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4529
+      }
+    },
+    {
+      "id": "UPDATE_METADATA_TAG",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5018
+      }
+    },
+    {
+      "id": "UPDATE_SEARCH",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.4138
+      }
+    },
+    {
+      "id": "UPDATE_SYSTEM",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.5698
+      }
+    },
+    {
+      "id": "UPDATE_WORKFLOW",
+      "type": "capability",
+      "properties": {
+        "relevance": 0.6051
+      }
+    },
+    {
+      "id": "ACCESS_CONTROL",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "CHAT_OPERATIONS",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "CORE_TASK_ACTIONS",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "DATA_STORE_ACCESS",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "DBA_MAINTENANCE",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "EMBEDDING_MANAGEMENT",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "EXTERNAL_SEARCH",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "KNOWLEDGE_LOOKUP",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "METADATA_GOVERNANCE",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "MODEL_INFERENCE",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "OS_EXECUTION",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "PIPELINE_ORCHESTRATION",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "PLATFORM_PROVISIONING",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "STORAGE_OPERATIONS",
+      "type": "capability_class",
+      "properties": {}
+    },
+    {
+      "id": "AI_ENGINEERING",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "COMMUNICATION",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "CORE_IDENTITY",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "INFRASTRUCTURE",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "ISSUE_OPERATIONS",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "KNOWLEDGE_SYSTEMS",
+      "type": "capability_domain",
+      "properties": {}
+    },
+    {
+      "id": "AI_OPERATIONS",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "CLOUD_DEPLOYMENT",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "CREDENTIAL_MANAGEMENT",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "DATABASE_GOVERNANCE",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "DOCUMENTATION",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "FILE_STORAGE",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "MESSAGING",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "RELATIONAL_DB",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "SYSTEM_AUTOMATION",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "TASK_MANAGEMENT",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "TAXONOMY_MANAGEMENT",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "VECTOR_DATABASE",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "WEB_RESEARCH",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "WORKFLOW_AUTOMATION",
+      "type": "capability_group",
+      "properties": {}
+    },
+    {
+      "id": "AI Development",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "DevOps & Core Systems",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "Project Management",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "Research & Insights",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "Security & Access Control",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "Team Collaboration",
+      "type": "intent_category",
+      "properties": {}
+    },
+    {
+      "id": "RESOURCE_NODE::ADDON",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "ADDON"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::APP",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "APP"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::CREDENTIAL",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "CREDENTIAL"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::DATABASE",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "DATABASE"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::DB_ADMIN",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "DB_ADMIN"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::DOCUMENT",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "DOCUMENT"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::FILE",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "FILE"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::ISSUE",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "ISSUE"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "MAINTENANCE"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::MESSAGE",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "MESSAGE"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::METADATA_TAG",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "METADATA_TAG"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::MODEL",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "MODEL"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::SEARCH",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "SEARCH"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "SYSTEM"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::VECTOR",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "VECTOR"
+      }
+    },
+    {
+      "id": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_node",
+      "properties": {
+        "resource_type": "WORKFLOW"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "CREATE_APP",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_CREDENTIAL",
+      "target": "ACCESS_CONTROL",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_DOCUMENT",
+      "target": "KNOWLEDGE_LOOKUP",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_FILE",
+      "target": "STORAGE_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MAINTENANCE",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MESSAGE",
+      "target": "CHAT_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_METADATA_TAG",
+      "target": "METADATA_GOVERNANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MODEL",
+      "target": "MODEL_INFERENCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_SEARCH",
+      "target": "EXTERNAL_SEARCH",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_SYSTEM",
+      "target": "OS_EXECUTION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_VECTOR",
+      "target": "EMBEDDING_MANAGEMENT",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_WORKFLOW",
+      "target": "PIPELINE_ORCHESTRATION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_APP",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_CREDENTIAL",
+      "target": "ACCESS_CONTROL",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_DB_ADMIN",
+      "target": "DBA_MAINTENANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_MAINTENANCE",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_METADATA_TAG",
+      "target": "METADATA_GOVERNANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_SEARCH",
+      "target": "EXTERNAL_SEARCH",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_SYSTEM",
+      "target": "OS_EXECUTION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_VECTOR",
+      "target": "EMBEDDING_MANAGEMENT",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_APP",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_CREDENTIAL",
+      "target": "ACCESS_CONTROL",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_DB_ADMIN",
+      "target": "DBA_MAINTENANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_DOCUMENT",
+      "target": "KNOWLEDGE_LOOKUP",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_FILE",
+      "target": "STORAGE_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_MODEL",
+      "target": "MODEL_INFERENCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_SEARCH",
+      "target": "EXTERNAL_SEARCH",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_SYSTEM",
+      "target": "OS_EXECUTION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_ADDON",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_APP",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_CREDENTIAL",
+      "target": "ACCESS_CONTROL",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_DB_ADMIN",
+      "target": "DBA_MAINTENANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_FILE",
+      "target": "STORAGE_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_ISSUE",
+      "target": "CORE_TASK_ACTIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MAINTENANCE",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MESSAGE",
+      "target": "CHAT_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_METADATA_TAG",
+      "target": "METADATA_GOVERNANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MODEL",
+      "target": "MODEL_INFERENCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_SEARCH",
+      "target": "EXTERNAL_SEARCH",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_SYSTEM",
+      "target": "OS_EXECUTION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_VECTOR",
+      "target": "EMBEDDING_MANAGEMENT",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_WORKFLOW",
+      "target": "PIPELINE_ORCHESTRATION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_ADDON",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_APP",
+      "target": "PLATFORM_PROVISIONING",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_DATABASE",
+      "target": "DATA_STORE_ACCESS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_FILE",
+      "target": "STORAGE_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_MESSAGE",
+      "target": "CHAT_OPERATIONS",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_METADATA_TAG",
+      "target": "METADATA_GOVERNANCE",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_SEARCH",
+      "target": "EXTERNAL_SEARCH",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_SYSTEM",
+      "target": "OS_EXECUTION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_WORKFLOW",
+      "target": "PIPELINE_ORCHESTRATION",
+      "type": "belongs_to_class",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ACCESS_CONTROL",
+      "target": "CREDENTIAL_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ACCESS_CONTROL",
+      "target": "CREDENTIAL_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ACCESS_CONTROL",
+      "target": "CREDENTIAL_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ACCESS_CONTROL",
+      "target": "CREDENTIAL_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CHAT_OPERATIONS",
+      "target": "MESSAGING",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CHAT_OPERATIONS",
+      "target": "MESSAGING",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CHAT_OPERATIONS",
+      "target": "MESSAGING",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CORE_TASK_ACTIONS",
+      "target": "TASK_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DATA_STORE_ACCESS",
+      "target": "RELATIONAL_DB",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DBA_MAINTENANCE",
+      "target": "DATABASE_GOVERNANCE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DBA_MAINTENANCE",
+      "target": "DATABASE_GOVERNANCE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DBA_MAINTENANCE",
+      "target": "DATABASE_GOVERNANCE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EMBEDDING_MANAGEMENT",
+      "target": "VECTOR_DATABASE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EMBEDDING_MANAGEMENT",
+      "target": "VECTOR_DATABASE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EMBEDDING_MANAGEMENT",
+      "target": "VECTOR_DATABASE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXTERNAL_SEARCH",
+      "target": "WEB_RESEARCH",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXTERNAL_SEARCH",
+      "target": "WEB_RESEARCH",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXTERNAL_SEARCH",
+      "target": "WEB_RESEARCH",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXTERNAL_SEARCH",
+      "target": "WEB_RESEARCH",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXTERNAL_SEARCH",
+      "target": "WEB_RESEARCH",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_LOOKUP",
+      "target": "DOCUMENTATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_LOOKUP",
+      "target": "DOCUMENTATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "METADATA_GOVERNANCE",
+      "target": "TAXONOMY_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "METADATA_GOVERNANCE",
+      "target": "TAXONOMY_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "METADATA_GOVERNANCE",
+      "target": "TAXONOMY_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "METADATA_GOVERNANCE",
+      "target": "TAXONOMY_MANAGEMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MODEL_INFERENCE",
+      "target": "AI_OPERATIONS",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MODEL_INFERENCE",
+      "target": "AI_OPERATIONS",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MODEL_INFERENCE",
+      "target": "AI_OPERATIONS",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "OS_EXECUTION",
+      "target": "SYSTEM_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "OS_EXECUTION",
+      "target": "SYSTEM_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "OS_EXECUTION",
+      "target": "SYSTEM_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "OS_EXECUTION",
+      "target": "SYSTEM_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "OS_EXECUTION",
+      "target": "SYSTEM_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PIPELINE_ORCHESTRATION",
+      "target": "WORKFLOW_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PIPELINE_ORCHESTRATION",
+      "target": "WORKFLOW_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PIPELINE_ORCHESTRATION",
+      "target": "WORKFLOW_AUTOMATION",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "PLATFORM_PROVISIONING",
+      "target": "CLOUD_DEPLOYMENT",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "STORAGE_OPERATIONS",
+      "target": "FILE_STORAGE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "STORAGE_OPERATIONS",
+      "target": "FILE_STORAGE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "STORAGE_OPERATIONS",
+      "target": "FILE_STORAGE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "STORAGE_OPERATIONS",
+      "target": "FILE_STORAGE",
+      "type": "belongs_to_group",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_ENGINEERING",
+      "target": "AI Development",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "COMMUNICATION",
+      "target": "Team Collaboration",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "COMMUNICATION",
+      "target": "Team Collaboration",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "COMMUNICATION",
+      "target": "Team Collaboration",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CORE_IDENTITY",
+      "target": "Security & Access Control",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CORE_IDENTITY",
+      "target": "Security & Access Control",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CORE_IDENTITY",
+      "target": "Security & Access Control",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CORE_IDENTITY",
+      "target": "Security & Access Control",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "INFRASTRUCTURE",
+      "target": "DevOps & Core Systems",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ISSUE_OPERATIONS",
+      "target": "Project Management",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ISSUE_OPERATIONS",
+      "target": "Project Management",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ISSUE_OPERATIONS",
+      "target": "Project Management",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ISSUE_OPERATIONS",
+      "target": "Project Management",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "ISSUE_OPERATIONS",
+      "target": "Project Management",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "KNOWLEDGE_SYSTEMS",
+      "target": "Research & Insights",
+      "type": "domain_belongs_to_intent",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_OPERATIONS",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_OPERATIONS",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "AI_OPERATIONS",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CLOUD_DEPLOYMENT",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREDENTIAL_MANAGEMENT",
+      "target": "CORE_IDENTITY",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREDENTIAL_MANAGEMENT",
+      "target": "CORE_IDENTITY",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREDENTIAL_MANAGEMENT",
+      "target": "CORE_IDENTITY",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREDENTIAL_MANAGEMENT",
+      "target": "CORE_IDENTITY",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DATABASE_GOVERNANCE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DATABASE_GOVERNANCE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DATABASE_GOVERNANCE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DOCUMENTATION",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DOCUMENTATION",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "FILE_STORAGE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "FILE_STORAGE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "FILE_STORAGE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "FILE_STORAGE",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MESSAGING",
+      "target": "COMMUNICATION",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MESSAGING",
+      "target": "COMMUNICATION",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "MESSAGING",
+      "target": "COMMUNICATION",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "RELATIONAL_DB",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "SYSTEM_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "SYSTEM_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "SYSTEM_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "SYSTEM_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "SYSTEM_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "TASK_MANAGEMENT",
+      "target": "ISSUE_OPERATIONS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "TAXONOMY_MANAGEMENT",
+      "target": "ISSUE_OPERATIONS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "TAXONOMY_MANAGEMENT",
+      "target": "ISSUE_OPERATIONS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "TAXONOMY_MANAGEMENT",
+      "target": "ISSUE_OPERATIONS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "TAXONOMY_MANAGEMENT",
+      "target": "ISSUE_OPERATIONS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "VECTOR_DATABASE",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "VECTOR_DATABASE",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "VECTOR_DATABASE",
+      "target": "AI_ENGINEERING",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WEB_RESEARCH",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WEB_RESEARCH",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WEB_RESEARCH",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WEB_RESEARCH",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WEB_RESEARCH",
+      "target": "KNOWLEDGE_SYSTEMS",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WORKFLOW_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WORKFLOW_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "WORKFLOW_AUTOMATION",
+      "target": "INFRASTRUCTURE",
+      "type": "group_belongs_to_domain",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_APP",
+      "target": "RESOURCE_NODE::APP",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_CREDENTIAL",
+      "target": "RESOURCE_NODE::CREDENTIAL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_DOCUMENT",
+      "target": "RESOURCE_NODE::DOCUMENT",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_FILE",
+      "target": "RESOURCE_NODE::FILE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MAINTENANCE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MESSAGE",
+      "target": "RESOURCE_NODE::MESSAGE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_METADATA_TAG",
+      "target": "RESOURCE_NODE::METADATA_TAG",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_MODEL",
+      "target": "RESOURCE_NODE::MODEL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_SEARCH",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_SYSTEM",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_VECTOR",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_WORKFLOW",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_APP",
+      "target": "RESOURCE_NODE::APP",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_CREDENTIAL",
+      "target": "RESOURCE_NODE::CREDENTIAL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_DB_ADMIN",
+      "target": "RESOURCE_NODE::DB_ADMIN",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_MAINTENANCE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_METADATA_TAG",
+      "target": "RESOURCE_NODE::METADATA_TAG",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_SEARCH",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_SYSTEM",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "DELETE_VECTOR",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_APP",
+      "target": "RESOURCE_NODE::APP",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_CREDENTIAL",
+      "target": "RESOURCE_NODE::CREDENTIAL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_DB_ADMIN",
+      "target": "RESOURCE_NODE::DB_ADMIN",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_DOCUMENT",
+      "target": "RESOURCE_NODE::DOCUMENT",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_FILE",
+      "target": "RESOURCE_NODE::FILE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_MODEL",
+      "target": "RESOURCE_NODE::MODEL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_SEARCH",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "EXECUTE_SYSTEM",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_ADDON",
+      "target": "RESOURCE_NODE::ADDON",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_APP",
+      "target": "RESOURCE_NODE::APP",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_CREDENTIAL",
+      "target": "RESOURCE_NODE::CREDENTIAL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_DB_ADMIN",
+      "target": "RESOURCE_NODE::DB_ADMIN",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_FILE",
+      "target": "RESOURCE_NODE::FILE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_ISSUE",
+      "target": "RESOURCE_NODE::ISSUE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MAINTENANCE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MESSAGE",
+      "target": "RESOURCE_NODE::MESSAGE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_METADATA_TAG",
+      "target": "RESOURCE_NODE::METADATA_TAG",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_MODEL",
+      "target": "RESOURCE_NODE::MODEL",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_SEARCH",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_SYSTEM",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_VECTOR",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "READ_WORKFLOW",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_ADDON",
+      "target": "RESOURCE_NODE::ADDON",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_APP",
+      "target": "RESOURCE_NODE::APP",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_DATABASE",
+      "target": "RESOURCE_NODE::DATABASE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_FILE",
+      "target": "RESOURCE_NODE::FILE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_MESSAGE",
+      "target": "RESOURCE_NODE::MESSAGE",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_METADATA_TAG",
+      "target": "RESOURCE_NODE::METADATA_TAG",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_SEARCH",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_SYSTEM",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "UPDATE_WORKFLOW",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "operates_on_resource",
+      "edge_weight": 1.0
+    },
+    {
+      "source": "CREATE_APP",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_CREDENTIAL",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_CREDENTIAL",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_DOCUMENT",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_DOCUMENT",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_FILE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_FILE",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_FILE",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MAINTENANCE",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MESSAGE",
+      "target": "RESOURCE_NODE::MODEL",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MESSAGE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MESSAGE",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_METADATA_TAG",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_METADATA_TAG",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MODEL",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_MODEL",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_SYSTEM",
+      "target": "RESOURCE_NODE::FILE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_SYSTEM",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_SYSTEM",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_VECTOR",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_VECTOR",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "CREATE_WORKFLOW",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_APP",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_CREDENTIAL",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_DB_ADMIN",
+      "target": "RESOURCE_NODE::DOCUMENT",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_DB_ADMIN",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_MAINTENANCE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_METADATA_TAG",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_SYSTEM",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_SYSTEM",
+      "target": "RESOURCE_NODE::MESSAGE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_SYSTEM",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_VECTOR",
+      "target": "RESOURCE_NODE::MESSAGE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "DELETE_VECTOR",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_APP",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_FILE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_FILE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_FILE",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_MODEL",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "EXECUTE_MODEL",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_ADDON",
+      "target": "RESOURCE_NODE::DB_ADMIN",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_ADDON",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_APP",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_CREDENTIAL",
+      "target": "RESOURCE_NODE::DATABASE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_CREDENTIAL",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_DB_ADMIN",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_FILE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_FILE",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_ISSUE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_MESSAGE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_METADATA_TAG",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_SYSTEM",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_SYSTEM",
+      "target": "RESOURCE_NODE::VECTOR",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_VECTOR",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_VECTOR",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_WORKFLOW",
+      "target": "RESOURCE_NODE::DB_ADMIN",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "READ_WORKFLOW",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_ADDON",
+      "target": "RESOURCE_NODE::APP",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_DATABASE",
+      "target": "RESOURCE_NODE::CREDENTIAL",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_FILE",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_FILE",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_MESSAGE",
+      "target": "RESOURCE_NODE::SEARCH",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_METADATA_TAG",
+      "target": "RESOURCE_NODE::SYSTEM",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_SYSTEM",
+      "target": "RESOURCE_NODE::MAINTENANCE",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    },
+    {
+      "source": "UPDATE_SYSTEM",
+      "target": "RESOURCE_NODE::WORKFLOW",
+      "type": "resource_dependency",
+      "edge_weight": 0.6
+    }
+  ]
+}

@@ -1,0 +1,750 @@
+[
+  {
+    "capability_id": "CREATE_APP",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "search_terms": [
+      "deploy dyno instance",
+      "heroku workspace initialization"
+    ]
+  },
+  {
+    "capability_id": "CREATE_CREDENTIAL",
+    "class": "ACCESS_CONTROL",
+    "group": "CREDENTIAL_MANAGEMENT",
+    "domain": "CORE_IDENTITY",
+    "intent": "Security & Access Control",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "credential",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_DOCUMENT",
+    "class": "KNOWLEDGE_LOOKUP",
+    "group": "DOCUMENTATION",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "document",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_FILE",
+    "class": "STORAGE_OPERATIONS",
+    "group": "FILE_STORAGE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "file",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_MAINTENANCE",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "maintenance",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_MESSAGE",
+    "class": "CHAT_OPERATIONS",
+    "group": "MESSAGING",
+    "domain": "COMMUNICATION",
+    "intent": "Team Collaboration",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "message",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_METADATA_TAG",
+    "class": "METADATA_GOVERNANCE",
+    "group": "TAXONOMY_MANAGEMENT",
+    "domain": "ISSUE_OPERATIONS",
+    "intent": "Project Management",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "metadata_tag",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_MODEL",
+    "class": "MODEL_INFERENCE",
+    "group": "AI_OPERATIONS",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "model",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_SEARCH",
+    "class": "EXTERNAL_SEARCH",
+    "group": "WEB_RESEARCH",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "search_terms": [
+      "search",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_SYSTEM",
+    "class": "OS_EXECUTION",
+    "group": "SYSTEM_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "system",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "CREATE_VECTOR",
+    "class": "EMBEDDING_MANAGEMENT",
+    "group": "VECTOR_DATABASE",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "system core utility",
+      "vector"
+    ]
+  },
+  {
+    "capability_id": "CREATE_WORKFLOW",
+    "class": "PIPELINE_ORCHESTRATION",
+    "group": "WORKFLOW_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "search_terms": [
+      "n8n trigger instantiation",
+      "provision automation pipeline"
+    ]
+  },
+  {
+    "capability_id": "DELETE_APP",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean"
+    ],
+    "search_terms": [
+      "app",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_CREDENTIAL",
+    "class": "ACCESS_CONTROL",
+    "group": "CREDENTIAL_MANAGEMENT",
+    "domain": "CORE_IDENTITY",
+    "intent": "Security & Access Control",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "credential",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_DB_ADMIN",
+    "class": "DBA_MAINTENANCE",
+    "group": "DATABASE_GOVERNANCE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "db_admin",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_MAINTENANCE",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "maintenance",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_METADATA_TAG",
+    "class": "METADATA_GOVERNANCE",
+    "group": "TAXONOMY_MANAGEMENT",
+    "domain": "ISSUE_OPERATIONS",
+    "intent": "Project Management",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "metadata_tag",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_SEARCH",
+    "class": "EXTERNAL_SEARCH",
+    "group": "WEB_RESEARCH",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "search",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_SYSTEM",
+    "class": "OS_EXECUTION",
+    "group": "SYSTEM_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "system",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "DELETE_VECTOR",
+    "class": "EMBEDDING_MANAGEMENT",
+    "group": "VECTOR_DATABASE",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "system core utility",
+      "vector"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_APP",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "app",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_CREDENTIAL",
+    "class": "ACCESS_CONTROL",
+    "group": "CREDENTIAL_MANAGEMENT",
+    "domain": "CORE_IDENTITY",
+    "intent": "Security & Access Control",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "credential",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_DB_ADMIN",
+    "class": "DBA_MAINTENANCE",
+    "group": "DATABASE_GOVERNANCE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "db_admin",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_DOCUMENT",
+    "class": "KNOWLEDGE_LOOKUP",
+    "group": "DOCUMENTATION",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "upstash"
+    ],
+    "search_terms": [
+      "document",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_FILE",
+    "class": "STORAGE_OPERATIONS",
+    "group": "FILE_STORAGE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "file",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_MODEL",
+    "class": "MODEL_INFERENCE",
+    "group": "AI_OPERATIONS",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "model",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_SEARCH",
+    "class": "EXTERNAL_SEARCH",
+    "group": "WEB_RESEARCH",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "meilisearch",
+      "openbnb_org"
+    ],
+    "search_terms": [
+      "find",
+      "find online information",
+      "google pages",
+      "lookup",
+      "queries",
+      "query",
+      "web search"
+    ]
+  },
+  {
+    "capability_id": "EXECUTE_SYSTEM",
+    "class": "OS_EXECUTION",
+    "group": "SYSTEM_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "upstash"
+    ],
+    "search_terms": [
+      "system",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_ADDON",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "addon",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_APP",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "search_terms": [
+      "app",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_CREDENTIAL",
+    "class": "ACCESS_CONTROL",
+    "group": "CREDENTIAL_MANAGEMENT",
+    "domain": "CORE_IDENTITY",
+    "intent": "Security & Access Control",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "credential",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_DB_ADMIN",
+    "class": "DBA_MAINTENANCE",
+    "group": "DATABASE_GOVERNANCE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "search_terms": [
+      "db_admin",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_FILE",
+    "class": "STORAGE_OPERATIONS",
+    "group": "FILE_STORAGE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "file",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_ISSUE",
+    "class": "CORE_TASK_ACTIONS",
+    "group": "TASK_MANAGEMENT",
+    "domain": "ISSUE_OPERATIONS",
+    "intent": "Project Management",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "incident",
+      "incident trace summary view",
+      "incidents",
+      "issue",
+      "lookup ticket attributes",
+      "task",
+      "tasks",
+      "ticket",
+      "tickets"
+    ]
+  },
+  {
+    "capability_id": "READ_MAINTENANCE",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "maintenance",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_MESSAGE",
+    "class": "CHAT_OPERATIONS",
+    "group": "MESSAGING",
+    "domain": "COMMUNICATION",
+    "intent": "Team Collaboration",
+    "providers": [
+      "heroku",
+      "meilisearch"
+    ],
+    "search_terms": [
+      "message",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_METADATA_TAG",
+    "class": "METADATA_GOVERNANCE",
+    "group": "TAXONOMY_MANAGEMENT",
+    "domain": "ISSUE_OPERATIONS",
+    "intent": "Project Management",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "metadata_tag",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_MODEL",
+    "class": "MODEL_INFERENCE",
+    "group": "AI_OPERATIONS",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "langfuse"
+    ],
+    "search_terms": [
+      "model",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_SEARCH",
+    "class": "EXTERNAL_SEARCH",
+    "group": "WEB_RESEARCH",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "lookup",
+      "queries",
+      "query",
+      "search"
+    ]
+  },
+  {
+    "capability_id": "READ_SYSTEM",
+    "class": "OS_EXECUTION",
+    "group": "SYSTEM_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "openbnb_org"
+    ],
+    "search_terms": [
+      "system",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "READ_VECTOR",
+    "class": "EMBEDDING_MANAGEMENT",
+    "group": "VECTOR_DATABASE",
+    "domain": "AI_ENGINEERING",
+    "intent": "AI Development",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "system core utility",
+      "vector"
+    ]
+  },
+  {
+    "capability_id": "READ_WORKFLOW",
+    "class": "PIPELINE_ORCHESTRATION",
+    "group": "WORKFLOW_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "system core utility",
+      "workflow"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_ADDON",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "digitalocean"
+    ],
+    "search_terms": [
+      "addon",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_APP",
+    "class": "PLATFORM_PROVISIONING",
+    "group": "CLOUD_DEPLOYMENT",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "app",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_DATABASE",
+    "class": "DATA_STORE_ACCESS",
+    "group": "RELATIONAL_DB",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "heroku"
+    ],
+    "search_terms": [
+      "database",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_FILE",
+    "class": "STORAGE_OPERATIONS",
+    "group": "FILE_STORAGE",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "search_terms": [
+      "file",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_MESSAGE",
+    "class": "CHAT_OPERATIONS",
+    "group": "MESSAGING",
+    "domain": "COMMUNICATION",
+    "intent": "Team Collaboration",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "message",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_METADATA_TAG",
+    "class": "METADATA_GOVERNANCE",
+    "group": "TAXONOMY_MANAGEMENT",
+    "domain": "ISSUE_OPERATIONS",
+    "intent": "Project Management",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "metadata_tag",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_SEARCH",
+    "class": "EXTERNAL_SEARCH",
+    "group": "WEB_RESEARCH",
+    "domain": "KNOWLEDGE_SYSTEMS",
+    "intent": "Research & Insights",
+    "providers": [
+      "meilisearch"
+    ],
+    "search_terms": [
+      "search",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_SYSTEM",
+    "class": "OS_EXECUTION",
+    "group": "SYSTEM_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "system",
+      "system core utility"
+    ]
+  },
+  {
+    "capability_id": "UPDATE_WORKFLOW",
+    "class": "PIPELINE_ORCHESTRATION",
+    "group": "WORKFLOW_AUTOMATION",
+    "domain": "INFRASTRUCTURE",
+    "intent": "DevOps & Core Systems",
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "search_terms": [
+      "system core utility",
+      "workflow"
+    ]
+  }
+]

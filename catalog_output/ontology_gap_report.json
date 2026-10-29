@@ -1,0 +1,29 @@
+{
+  "DETAILS": [
+    "openbnb_org::airbnb_listing_details"
+  ],
+  "ENV": [
+    "modelcontextprotocol::get_env"
+  ],
+  "INFO": [
+    "heroku::pg_info",
+    "heroku::pg_info"
+  ],
+  "KILL": [
+    "heroku::pg_kill",
+    "heroku::pg_kill"
+  ],
+  "OUTLIERS": [
+    "heroku::pg_outliers",
+    "heroku::pg_outliers"
+  ],
+  "PS": [
+    "heroku::pg_ps"
+  ],
+  "SUM": [
+    "modelcontextprotocol::get_sum"
+  ],
+  "UNKNOWN": [
+    "modelcontextprotocol::echo"
+  ]
+}

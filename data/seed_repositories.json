@@ -1,0 +1,126 @@
+{
+  "version": "faia_seed_v1",
+  "description": "Curated high-confidence MCP ecosystem repositories for validating the FAIA ingestion pipeline.",
+  "repositories": [
+    {
+      "repository_url": "https://github.com/modelcontextprotocol/servers",
+      "trust_tier": "verified_publisher",
+      "provider": "modelcontextprotocol",
+      "tags": ["official", "reference", "mcp"]
+    },
+    {
+      "repository_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "trust_tier": "verified_publisher",
+      "provider": "modelcontextprotocol",
+      "tags": ["sdk", "python", "mcp"]
+    },
+    {
+      "repository_url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "trust_tier": "verified_publisher",
+      "provider": "modelcontextprotocol",
+      "tags": ["sdk", "typescript", "mcp"]
+    },
+    {
+      "repository_url": "https://github.com/github/github-mcp-server",
+      "trust_tier": "verified_publisher",
+      "provider": "github",
+      "tags": ["github", "repository", "developer-tools"]
+    },
+    {
+      "repository_url": "https://github.com/microsoft/playwright-mcp",
+      "trust_tier": "verified_publisher",
+      "provider": "microsoft",
+      "tags": ["browser", "automation", "testing"]
+    },
+    {
+      "repository_url": "https://github.com/docker/mcp-gateway",
+      "trust_tier": "verified_publisher",
+      "provider": "docker",
+      "tags": ["containers", "infrastructure"]
+    },
+    {
+      "repository_url": "https://github.com/firebase/firebase-mcp",
+      "trust_tier": "verified_publisher",
+      "provider": "firebase",
+      "tags": ["database", "cloud"]
+    },
+    {
+      "repository_url": "https://github.com/digitalocean/digitalocean-mcp",
+      "trust_tier": "verified_publisher",
+      "provider": "digitalocean",
+      "tags": ["cloud", "infrastructure"]
+    },
+    {
+      "repository_url": "https://github.com/heroku/heroku-mcp-server",
+      "trust_tier": "verified_publisher",
+      "provider": "heroku",
+      "tags": ["cloud", "deployment"]
+    },
+    {
+      "repository_url": "https://github.com/langfuse/mcp-server-langfuse",
+      "trust_tier": "verified_publisher",
+      "provider": "langfuse",
+      "tags": ["observability", "llm"]
+    },
+    {
+      "repository_url": "https://github.com/zilliztech/mcp-server-milvus",
+      "trust_tier": "verified_publisher",
+      "provider": "zilliz",
+      "tags": ["vector-db", "retrieval"]
+    },
+    {
+      "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+      "trust_tier": "verified_publisher",
+      "provider": "openbnb",
+      "tags": ["travel", "booking"]
+    },
+    {
+      "repository_url": "https://github.com/meilisearch/meilisearch-mcp",
+      "trust_tier": "verified_publisher",
+      "provider": "meilisearch",
+      "tags": ["search", "retrieval"]
+    },
+    {
+      "repository_url": "https://github.com/MatanYemini/bitbucket-mcp-server",
+      "trust_tier": "community",
+      "provider": "bitbucket",
+      "tags": ["git", "developer-tools"]
+    },
+    {
+      "repository_url": "https://github.com/illuminaresolutions/n8n-mcp-server",
+      "trust_tier": "community",
+      "provider": "n8n",
+      "tags": ["automation", "workflow"]
+    },
+    {
+      "repository_url": "https://github.com/adhikasp/mcp-reddit",
+      "trust_tier": "community",
+      "provider": "reddit",
+      "tags": ["social", "content"]
+    },
+    {
+      "repository_url": "https://github.com/cyanheads/obsidian-mcp-server",
+      "trust_tier": "community",
+      "provider": "obsidian",
+      "tags": ["knowledge-management", "notes"]
+    },
+    {
+      "repository_url": "https://github.com/ravitemer/mcp-hub",
+      "trust_tier": "community",
+      "provider": "mcp-hub",
+      "tags": ["aggregation", "registry"]
+    },
+    {
+      "repository_url": "https://github.com/upstash/context7",
+      "trust_tier": "verified_publisher",
+      "provider": "upstash",
+      "tags": ["documentation", "retrieval"]
+    },
+    {
+      "repository_url": "https://github.com/pulumi/mcp-server",
+      "trust_tier": "verified_publisher",
+      "provider": "pulumi",
+      "tags": ["infrastructure", "iac"]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "tool_name": "airbnb_listing_details",
+    "provider": "openbnb_org",
+    "server_name": "mcp_server_airbnb",
+    "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "echo",
+    "provider": "modelcontextprotocol",
+    "server_name": "servers",
+    "repository_url": "https://github.com/modelcontextprotocol/servers",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "get_env",
+    "provider": "modelcontextprotocol",
+    "server_name": "servers",
+    "repository_url": "https://github.com/modelcontextprotocol/servers",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "get_sum",
+    "provider": "modelcontextprotocol",
+    "server_name": "servers",
+    "repository_url": "https://github.com/modelcontextprotocol/servers",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_info",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_info",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_kill",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_kill",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_outliers",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_outliers",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  },
+  {
+    "tool_name": "pg_ps",
+    "provider": "heroku",
+    "server_name": "heroku_mcp_server",
+    "repository_url": "https://github.com/heroku/heroku-mcp-server",
+    "inferred_action": "EXECUTE"
+  }
+]

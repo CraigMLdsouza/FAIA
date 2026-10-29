@@ -1,0 +1,8 @@
+{
+  "github": "DEVELOPER_PLATFORM",
+  "heroku": "CLOUD_HOSTING",
+  "jira": "ISSUE_TRACKING",
+  "openai": "AI_PLATFORM",
+  "postgres": "DATABASE",
+  "slack": "MESSAGING"
+}

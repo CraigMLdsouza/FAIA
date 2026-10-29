@@ -1,0 +1,15 @@
+{
+  "artifact_integrity": "VERIFIED_VALID",
+  "loaded_capabilities": 51,
+  "loaded_classes": 14,
+  "loaded_domains": 6,
+  "loaded_providers": 8,
+  "provider_alias_count": 0,
+  "provider_aware_search_enabled": true,
+  "provider_lookup_entries": 8,
+  "provider_match_boost": 50.0,
+  "search_engine_status": "FAIA_SEARCH_ENGINE_v1.8.1_CLEANED",
+  "search_engine_version": "v1.8.1_production_freeze",
+  "search_index_size": 51,
+  "status": "HEALTHY"
+}

@@ -1,0 +1,50 @@
+{
+  "github_com_digitalocean_digitalocean_mcp": {
+    "capability_coverage": 0.1176,
+    "ecosystem_share": 0.0671,
+    "provider_rank": 5,
+    "ranking_score": 25.79
+  },
+  "github_com_heroku_heroku_mcp_server": {
+    "capability_coverage": 0.3137,
+    "ecosystem_share": 0.3557,
+    "provider_rank": 2,
+    "ranking_score": 54.87
+  },
+  "github_com_illuminaresolutions_n8n_mcp_server": {
+    "capability_coverage": 0.4118,
+    "ecosystem_share": 0.4497,
+    "provider_rank": 1,
+    "ranking_score": 65.66
+  },
+  "github_com_langfuse_mcp_server_langfuse": {
+    "capability_coverage": 0.0196,
+    "ecosystem_share": 0.0134,
+    "provider_rank": 8,
+    "ranking_score": 6.02
+  },
+  "github_com_meilisearch_meilisearch_mcp": {
+    "capability_coverage": 0.2353,
+    "ecosystem_share": 0.1745,
+    "provider_rank": 3,
+    "ranking_score": 42.6
+  },
+  "github_com_modelcontextprotocol_servers": {
+    "capability_coverage": 0.2157,
+    "ecosystem_share": 0.1544,
+    "provider_rank": 4,
+    "ranking_score": 36.41
+  },
+  "github_com_modelcontextprotocol_servers_tree_main_src_openbnb_org": {
+    "capability_coverage": 0.0392,
+    "ecosystem_share": 0.0201,
+    "provider_rank": 6,
+    "ranking_score": 16.87
+  },
+  "github_com_upstash_context7": {
+    "capability_coverage": 0.0392,
+    "ecosystem_share": 0.0134,
+    "provider_rank": 7,
+    "ranking_score": 11.71
+  }
+}

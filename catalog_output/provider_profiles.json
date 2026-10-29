@@ -1,0 +1,407 @@
+{
+  "digitalocean": {
+    "provider_id": "digitalocean",
+    "search_tokens": [
+      "digital",
+      "digitalocean",
+      "digitalocean-mcp",
+      "digitaloceanmcp",
+      "do",
+      "mcp",
+      "ocean"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "SPECIALIZED_UTILITY",
+    "tool_count": 10,
+    "capability_count": 6,
+    "domain_count": 1,
+    "class_count": 2,
+    "repository_count": 1,
+    "average_tools_per_repository": 10.0,
+    "capability_coverage": 0.1176,
+    "domain_coverage": 0.1667,
+    "class_coverage": 0.1429,
+    "ecosystem_share": 0.0671,
+    "functional_density_score": 0.1324,
+    "repositories": [
+      "https://github.com/digitalocean/digitalocean-mcp"
+    ],
+    "covered_domains": [
+      "INFRASTRUCTURE"
+    ],
+    "covered_classes": [
+      "OS_EXECUTION",
+      "PLATFORM_PROVISIONING"
+    ],
+    "capabilities_manifest": [
+      "CREATE_APP",
+      "DELETE_APP",
+      "DELETE_SYSTEM",
+      "READ_APP",
+      "READ_SYSTEM",
+      "UPDATE_ADDON"
+    ],
+    "provider_rank": 5,
+    "coverage_rank": 5
+  },
+  "heroku": {
+    "provider_id": "heroku",
+    "search_tokens": [
+      "cloud",
+      "dyno",
+      "heroku",
+      "heroku-mcp-server",
+      "herokumcpserver",
+      "mcp",
+      "server"
+    ],
+    "archetype": "CLOUD_HOSTING",
+    "operational_focus": "GENERALIST_PLATFORM",
+    "tool_count": 53,
+    "capability_count": 16,
+    "domain_count": 5,
+    "class_count": 7,
+    "repository_count": 1,
+    "average_tools_per_repository": 53.0,
+    "capability_coverage": 0.3137,
+    "domain_coverage": 0.8333,
+    "class_coverage": 0.5,
+    "ecosystem_share": 0.3557,
+    "functional_density_score": 0.4696,
+    "repositories": [
+      "https://github.com/heroku/heroku-mcp-server"
+    ],
+    "covered_domains": [
+      "AI_ENGINEERING",
+      "COMMUNICATION",
+      "CORE_IDENTITY",
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "covered_classes": [
+      "ACCESS_CONTROL",
+      "CHAT_OPERATIONS",
+      "DATA_STORE_ACCESS",
+      "DBA_MAINTENANCE",
+      "MODEL_INFERENCE",
+      "PIPELINE_ORCHESTRATION",
+      "PLATFORM_PROVISIONING"
+    ],
+    "capabilities_manifest": [
+      "CREATE_APP",
+      "CREATE_MAINTENANCE",
+      "CREATE_WORKFLOW",
+      "EXECUTE_APP",
+      "EXECUTE_CREDENTIAL",
+      "EXECUTE_DB_ADMIN",
+      "EXECUTE_MODEL",
+      "READ_ADDON",
+      "READ_APP",
+      "READ_DB_ADMIN",
+      "READ_MAINTENANCE",
+      "READ_MESSAGE",
+      "READ_WORKFLOW",
+      "UPDATE_APP",
+      "UPDATE_DATABASE",
+      "UPDATE_WORKFLOW"
+    ],
+    "provider_rank": 2,
+    "coverage_rank": 2
+  },
+  "illuminaresolutions": {
+    "provider_id": "illuminaresolutions",
+    "search_tokens": [
+      "automation",
+      "illuminare",
+      "illuminaresolutions",
+      "mcp",
+      "n8n",
+      "n8n-mcp-server",
+      "n8nmcpserver",
+      "server",
+      "workflow"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "GENERALIST_PLATFORM",
+    "tool_count": 67,
+    "capability_count": 21,
+    "domain_count": 5,
+    "class_count": 8,
+    "repository_count": 1,
+    "average_tools_per_repository": 67.0,
+    "capability_coverage": 0.4118,
+    "domain_coverage": 0.8333,
+    "class_coverage": 0.5714,
+    "ecosystem_share": 0.4497,
+    "functional_density_score": 0.5382,
+    "repositories": [
+      "https://github.com/illuminaresolutions/n8n-mcp-server"
+    ],
+    "covered_domains": [
+      "AI_ENGINEERING",
+      "CORE_IDENTITY",
+      "INFRASTRUCTURE",
+      "ISSUE_OPERATIONS",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "covered_classes": [
+      "ACCESS_CONTROL",
+      "DBA_MAINTENANCE",
+      "EXTERNAL_SEARCH",
+      "KNOWLEDGE_LOOKUP",
+      "METADATA_GOVERNANCE",
+      "MODEL_INFERENCE",
+      "OS_EXECUTION",
+      "PIPELINE_ORCHESTRATION"
+    ],
+    "capabilities_manifest": [
+      "CREATE_CREDENTIAL",
+      "CREATE_DOCUMENT",
+      "CREATE_METADATA_TAG",
+      "CREATE_MODEL",
+      "CREATE_SEARCH",
+      "CREATE_SYSTEM",
+      "CREATE_WORKFLOW",
+      "DELETE_CREDENTIAL",
+      "DELETE_DB_ADMIN",
+      "DELETE_METADATA_TAG",
+      "DELETE_SYSTEM",
+      "EXECUTE_MODEL",
+      "EXECUTE_SYSTEM",
+      "READ_CREDENTIAL",
+      "READ_DB_ADMIN",
+      "READ_METADATA_TAG",
+      "READ_SYSTEM",
+      "READ_WORKFLOW",
+      "UPDATE_METADATA_TAG",
+      "UPDATE_SYSTEM",
+      "UPDATE_WORKFLOW"
+    ],
+    "provider_rank": 1,
+    "coverage_rank": 1
+  },
+  "langfuse": {
+    "provider_id": "langfuse",
+    "search_tokens": [
+      "fuse",
+      "lang",
+      "langfuse",
+      "mcp",
+      "mcp-server-langfuse",
+      "mcpserverlangfuse",
+      "server"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "SPECIALIZED_UTILITY",
+    "tool_count": 2,
+    "capability_count": 1,
+    "domain_count": 1,
+    "class_count": 1,
+    "repository_count": 1,
+    "average_tools_per_repository": 2.0,
+    "capability_coverage": 0.0196,
+    "domain_coverage": 0.1667,
+    "class_coverage": 0.0714,
+    "ecosystem_share": 0.0134,
+    "functional_density_score": 0.0637,
+    "repositories": [
+      "https://github.com/langfuse/mcp-server-langfuse"
+    ],
+    "covered_domains": [
+      "AI_ENGINEERING"
+    ],
+    "covered_classes": [
+      "MODEL_INFERENCE"
+    ],
+    "capabilities_manifest": [
+      "READ_MODEL"
+    ],
+    "provider_rank": 8,
+    "coverage_rank": 8
+  },
+  "meilisearch": {
+    "provider_id": "meilisearch",
+    "search_tokens": [
+      "mcp",
+      "meili",
+      "meilisearch",
+      "meilisearch-mcp",
+      "meilisearchmcp",
+      "search"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "GENERALIST_PLATFORM",
+    "tool_count": 26,
+    "capability_count": 12,
+    "domain_count": 4,
+    "class_count": 6,
+    "repository_count": 1,
+    "average_tools_per_repository": 26.0,
+    "capability_coverage": 0.2353,
+    "domain_coverage": 0.6667,
+    "class_coverage": 0.4286,
+    "ecosystem_share": 0.1745,
+    "functional_density_score": 0.3647,
+    "repositories": [
+      "https://github.com/meilisearch/meilisearch-mcp"
+    ],
+    "covered_domains": [
+      "COMMUNICATION",
+      "INFRASTRUCTURE",
+      "ISSUE_OPERATIONS",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "covered_classes": [
+      "CHAT_OPERATIONS",
+      "CORE_TASK_ACTIONS",
+      "DBA_MAINTENANCE",
+      "EXTERNAL_SEARCH",
+      "PIPELINE_ORCHESTRATION",
+      "PLATFORM_PROVISIONING"
+    ],
+    "capabilities_manifest": [
+      "CREATE_MESSAGE",
+      "CREATE_SEARCH",
+      "CREATE_WORKFLOW",
+      "DELETE_MAINTENANCE",
+      "DELETE_SEARCH",
+      "EXECUTE_SEARCH",
+      "READ_DB_ADMIN",
+      "READ_ISSUE",
+      "READ_MESSAGE",
+      "READ_SEARCH",
+      "UPDATE_MESSAGE",
+      "UPDATE_SEARCH"
+    ],
+    "provider_rank": 3,
+    "coverage_rank": 3
+  },
+  "modelcontextprotocol": {
+    "provider_id": "modelcontextprotocol",
+    "search_tokens": [
+      "context",
+      "mcp",
+      "model",
+      "modelcontextprotocol",
+      "protocol",
+      "servers"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "SPECIALIZED_UTILITY",
+    "tool_count": 23,
+    "capability_count": 11,
+    "domain_count": 2,
+    "class_count": 3,
+    "repository_count": 1,
+    "average_tools_per_repository": 23.0,
+    "capability_coverage": 0.2157,
+    "domain_coverage": 0.3333,
+    "class_coverage": 0.2143,
+    "ecosystem_share": 0.1544,
+    "functional_density_score": 0.251,
+    "repositories": [
+      "https://github.com/modelcontextprotocol/servers"
+    ],
+    "covered_domains": [
+      "AI_ENGINEERING",
+      "INFRASTRUCTURE"
+    ],
+    "covered_classes": [
+      "EMBEDDING_MANAGEMENT",
+      "OS_EXECUTION",
+      "STORAGE_OPERATIONS"
+    ],
+    "capabilities_manifest": [
+      "CREATE_FILE",
+      "CREATE_SYSTEM",
+      "CREATE_VECTOR",
+      "DELETE_SYSTEM",
+      "DELETE_VECTOR",
+      "EXECUTE_FILE",
+      "EXECUTE_SYSTEM",
+      "READ_FILE",
+      "READ_SYSTEM",
+      "READ_VECTOR",
+      "UPDATE_FILE"
+    ],
+    "provider_rank": 4,
+    "coverage_rank": 4
+  },
+  "openbnb_org": {
+    "provider_id": "openbnb_org",
+    "search_tokens": [
+      "airbnb",
+      "bnb",
+      "openbnb",
+      "openbnb-org",
+      "openbnb_org",
+      "org"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "SPECIALIZED_UTILITY",
+    "tool_count": 3,
+    "capability_count": 2,
+    "domain_count": 2,
+    "class_count": 2,
+    "repository_count": 0,
+    "average_tools_per_repository": 3.0,
+    "capability_coverage": 0.0392,
+    "domain_coverage": 0.3333,
+    "class_coverage": 0.1429,
+    "ecosystem_share": 0.0201,
+    "functional_density_score": 0.1275,
+    "repositories": [],
+    "covered_domains": [
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "covered_classes": [
+      "EXTERNAL_SEARCH",
+      "OS_EXECUTION"
+    ],
+    "capabilities_manifest": [
+      "EXECUTE_SEARCH",
+      "READ_SYSTEM"
+    ],
+    "provider_rank": 6,
+    "coverage_rank": 6
+  },
+  "upstash": {
+    "provider_id": "upstash",
+    "search_tokens": [
+      "context7",
+      "documentation",
+      "upstash"
+    ],
+    "archetype": "GENERAL",
+    "operational_focus": "SPECIALIZED_UTILITY",
+    "tool_count": 2,
+    "capability_count": 2,
+    "domain_count": 2,
+    "class_count": 2,
+    "repository_count": 1,
+    "average_tools_per_repository": 2.0,
+    "capability_coverage": 0.0392,
+    "domain_coverage": 0.3333,
+    "class_coverage": 0.1429,
+    "ecosystem_share": 0.0134,
+    "functional_density_score": 0.1275,
+    "repositories": [
+      "https://github.com/upstash/context7"
+    ],
+    "covered_domains": [
+      "INFRASTRUCTURE",
+      "KNOWLEDGE_SYSTEMS"
+    ],
+    "covered_classes": [
+      "KNOWLEDGE_LOOKUP",
+      "OS_EXECUTION"
+    ],
+    "capabilities_manifest": [
+      "EXECUTE_DOCUMENT",
+      "EXECUTE_SYSTEM"
+    ],
+    "provider_rank": 7,
+    "coverage_rank": 7
+  }
+}

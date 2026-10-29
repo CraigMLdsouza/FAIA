@@ -1,0 +1,299 @@
+{
+  "analytics": {
+    "artifact_type_counts": [
+      [
+        "TOOL",
+        197
+      ],
+      [
+        "REPOSITORY",
+        14
+      ],
+      [
+        "SERVER",
+        4
+      ]
+    ],
+    "average_tool_quality_score": 0.7457,
+    "average_tools_per_repository": 14.0714,
+    "cache_hit_rate": 0.0097,
+    "dataset_readiness_score": 0.8056,
+    "extraction_confidence_score": 0.8355,
+    "extraction_origin_counts_all_artifacts": [
+      [
+        "source_code",
+        163
+      ],
+      [
+        "mcp_manifest",
+        35
+      ],
+      [
+        "repository",
+        14
+      ],
+      [
+        "manifest_root",
+        3
+      ]
+    ],
+    "network_requests": 153,
+    "provider_concentration_ratio": 0.3401,
+    "provider_diversity_score": 0.664,
+    "provider_families": 8,
+    "readme_artifact_ratio": 0.0,
+    "repositories_accepted": 14,
+    "repositories_discovered": 20,
+    "repositories_rejected": 6,
+    "repository_acceptance_rate": 0.7,
+    "repository_precision": 0.5714,
+    "score_distribution": {
+      "histogram": [
+        [
+          "55",
+          6
+        ],
+        [
+          "25",
+          4
+        ],
+        [
+          "20",
+          4
+        ],
+        [
+          "-15",
+          2
+        ],
+        [
+          "75",
+          2
+        ],
+        [
+          "5",
+          1
+        ],
+        [
+          "0",
+          1
+        ]
+      ],
+      "max": 75,
+      "min": -15,
+      "p25": 20,
+      "p50": 25,
+      "p75": 55
+    },
+    "total_artifacts_extracted": 215,
+    "total_duplicates_removed": 0,
+    "total_rejections": 18,
+    "validated_tools": 197
+  },
+  "errors": {
+    "discovery_errors": [],
+    "extraction_errors": [],
+    "http_errors": [
+      "HTTP 404 for https://api.github.com/repos/matanyemini/bitbucket-mcp-server",
+      "HTTP 404 for https://api.github.com/repos/pulumi/mcp-server",
+      "HTTP 404 for https://api.github.com/repos/firebase/firebase-mcp",
+      "HTTP 404 for https://api.github.com/repos/matanyemini/bitbucket-mcp-server/git/trees/main?recursive=1",
+      "HTTP 404 for https://api.github.com/repos/pulumi/mcp-server/git/trees/main?recursive=1"
+    ]
+  },
+  "generated_at": "2026-06-21T11:13:53.751960+00:00",
+  "http_cache": {
+    "etag_304": 0,
+    "generated_at": "2026-06-21T11:13:53.751960+00:00",
+    "hit_rate": 0.0097,
+    "hits": 3,
+    "misses": 306,
+    "network_requests": 153,
+    "warmup_validation": {
+      "network_reduction_target": ">70%",
+      "second_run_target_hit_rate": ">80%"
+    },
+    "writes": 148
+  },
+  "outputs": {
+    "cache_report": "cache_report.json",
+    "dataset_readiness_report": "dataset_readiness_report.json",
+    "provider_diversity_report": "provider_diversity_report.json",
+    "repository_rejections": "repository_rejections.json",
+    "repository_yield_report": "repository_yield_report.json",
+    "validated_tools": "validated_tools.json"
+  },
+  "settings": {
+    "acceptance_threshold": 10,
+    "cache_dir": ".cache",
+    "cache_report_output": "cache_report.json",
+    "cache_required": false,
+    "cache_ttl": 86400,
+    "capability_candidate_output": "capability_candidate_dataset.json",
+    "dataset_readiness_output": "dataset_readiness_report.json",
+    "github_results": 50,
+    "github_search_enabled": false,
+    "include_official_registry": false,
+    "incremental": false,
+    "max_candidate_files": 12,
+    "max_sources": 50,
+    "max_workers": 16,
+    "normalized_artifacts_output": "normalized_artifacts.json",
+    "normalized_tools_output": "normalized_tools.json",
+    "offline_demo": false,
+    "provider_diversity_output": "provider_diversity_report.json",
+    "provider_summary_output": "provider_summary.json",
+    "report": "ingestion_report.json",
+    "repository_rejections_output": "repository_rejections.json",
+    "repository_state": ".cache/repository_state.json",
+    "repository_summary_output": "repository_summary.json",
+    "repository_yield_output": "repository_yield_report.json",
+    "retries": 0,
+    "seed_file": "seed_repositories.json",
+    "timeout": 10,
+    "tool_only_output": "tool_only_dataset.json",
+    "validated_tools_output": "validated_tools.json",
+    "verbose": true
+  },
+  "stop_condition": "When targets are met, shift effort to capability extraction, normalization, graph construction, and compression analysis.",
+  "timing": {
+    "discovery_seconds": 0.001,
+    "metadata_classification_seconds": 4.3946,
+    "parallel_extraction_seconds": 0.8774,
+    "total_seconds": 18.9248,
+    "tree_and_candidate_fetch_seconds": 13.6448
+  },
+  "validation": {
+    "reject_reasons": {
+      "not_tool_artifact": 18
+    },
+    "sample_rejections": [
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "obsidian_mcp_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/cyanheads/obsidian-mcp-server",
+        "stable_id": "b52da8b9f8a644d1a4b3756f78d25d8f660c98935ebbce2532e475b82ee48884"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "mcp_reddit",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/adhikasp/mcp-reddit",
+        "stable_id": "ba1a9110c10f7f35acd364d792d43d7e850143dec2ccf06a6b1fd6045752c37e"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "context7",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/upstash/context7",
+        "stable_id": "a042237cef56acad761f03c28a683a2e9468faee9655e752bc7f4adcdc9f61a5"
+      },
+      {
+        "artifact_type": "SERVER",
+        "name": "context7",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/upstash/context7",
+        "stable_id": "22e9f7ad83f2ea4d614968f99ac3fcad02c4b00e3409ddb6a34bb93a42112ab7"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "playwright_mcp",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/microsoft/playwright-mcp",
+        "stable_id": "b41476906cd6b01b5c298835ae64b807e8dc8983bcff4c0077fac73f60361628"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "github_mcp_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/github/github-mcp-server",
+        "stable_id": "cf2317ee98db1ee7c135d8da3973b2cf982ab6efbe67af5a6d8163f7c296292d"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "mcp_hub",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/ravitemer/mcp-hub",
+        "stable_id": "25a130f8da146cee671a629fbc79e2c860ace170ae8c7c5e30f99a922a5616be"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "meilisearch_mcp",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/meilisearch/meilisearch-mcp",
+        "stable_id": "ca4ccdcb822d492339d9d284a075caf1fd9f93b31dca23cf4f0b7fa78f2021b5"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "mcp_server_langfuse",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/langfuse/mcp-server-langfuse",
+        "stable_id": "d1d9031f9f6f2f10ee84071cffc53869355a1303b863f351f6c66d3fdb73544a"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "servers",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/modelcontextprotocol/servers",
+        "stable_id": "5cc9774aacbcf5ffc157fc948ece21187669f1f389ff3234063335077bf467b1"
+      },
+      {
+        "artifact_type": "SERVER",
+        "name": "memory_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/modelcontextprotocol/servers",
+        "stable_id": "575450b7c8e8ca0b9882934e8cedbb0d50555d5643a7d20844b9461d8126defe"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "mcp_server_airbnb",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+        "stable_id": "d89db795ec9d6d6907190e8edae3bf4a4588f1d71c132337e70da3fcd7b879c2"
+      },
+      {
+        "artifact_type": "SERVER",
+        "name": "airbnb_search",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+        "stable_id": "a6645344f010d569236bb7e369ea89432a0a30503187650056c511ab1870441d"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "mcp_server_milvus",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/zilliztech/mcp-server-milvus",
+        "stable_id": "a1d428e2b838cd1dc6c1deccfcedaa02658b0cec949f283cf6bc76bdbf228b2e"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "n8n_mcp_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/illuminaresolutions/n8n-mcp-server",
+        "stable_id": "d0850c722d6cf00f27a9c1111314a66658d186a9c7d21cfb32ed464687b799f6"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "digitalocean_mcp",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/digitalocean/digitalocean-mcp",
+        "stable_id": "c3781bd9e282a96e064a0f681c574238bc7658b16881d6f5e7f5f02e2b1fe2a9"
+      },
+      {
+        "artifact_type": "REPOSITORY",
+        "name": "heroku_mcp_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/heroku/heroku-mcp-server",
+        "stable_id": "96b751f585b9c2a7a74e9500833cc2e3ddbecdccca84014fc69b127bc44e6a9a"
+      },
+      {
+        "artifact_type": "SERVER",
+        "name": "heroku_mcp_server",
+        "reason": "not_tool_artifact",
+        "repository_url": "https://github.com/heroku/heroku-mcp-server",
+        "stable_id": "a3ceb320ae40db0ef55c1d216e0b4a74a4e001ad65bdb1f6575f3e1fa88f77af"
+      }
+    ]
+  },
+  "version": "faia_ingestion_v5_hardened"
+}

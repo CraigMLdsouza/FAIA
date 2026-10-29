@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "digitalocean",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 5
+      }
+    },
+    {
+      "id": "heroku",
+      "type": "provider",
+      "properties": {
+        "archetype": "CLOUD_HOSTING",
+        "rank": 2
+      }
+    },
+    {
+      "id": "illuminaresolutions",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 1
+      }
+    },
+    {
+      "id": "langfuse",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 8
+      }
+    },
+    {
+      "id": "meilisearch",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 3
+      }
+    },
+    {
+      "id": "modelcontextprotocol",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 4
+      }
+    },
+    {
+      "id": "openbnb_org",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 6
+      }
+    },
+    {
+      "id": "upstash",
+      "type": "provider",
+      "properties": {
+        "archetype": "GENERAL",
+        "rank": 7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "heroku",
+      "target": "illuminaresolutions",
+      "type": "similarity",
+      "weight": 0.1562
+    }
+  ]
+}

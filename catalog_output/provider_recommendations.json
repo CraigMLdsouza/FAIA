@@ -1,0 +1,59 @@
+{
+  "digitalocean": {
+    "alternatives": [
+      "openbnb_org",
+      "modelcontextprotocol",
+      "heroku",
+      "illuminaresolutions"
+    ]
+  },
+  "heroku": {
+    "alternatives": [
+      "illuminaresolutions",
+      "meilisearch",
+      "digitalocean"
+    ]
+  },
+  "illuminaresolutions": {
+    "alternatives": [
+      "heroku",
+      "modelcontextprotocol",
+      "meilisearch",
+      "digitalocean",
+      "openbnb_org",
+      "upstash"
+    ]
+  },
+  "langfuse": {
+    "alternatives": []
+  },
+  "meilisearch": {
+    "alternatives": [
+      "heroku",
+      "illuminaresolutions",
+      "openbnb_org"
+    ]
+  },
+  "modelcontextprotocol": {
+    "alternatives": [
+      "illuminaresolutions",
+      "digitalocean",
+      "openbnb_org",
+      "upstash"
+    ]
+  },
+  "openbnb_org": {
+    "alternatives": [
+      "digitalocean",
+      "modelcontextprotocol",
+      "meilisearch",
+      "illuminaresolutions"
+    ]
+  },
+  "upstash": {
+    "alternatives": [
+      "modelcontextprotocol",
+      "illuminaresolutions"
+    ]
+  }
+}

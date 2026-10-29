@@ -1,0 +1,3051 @@
+[
+  {
+    "constraints": {},
+    "description": "Resolves a package/product name to a Context7-compatible library ID and returns matching libraries.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "resolve_context7_library_id",
+    "provider": "upstash"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieves and queries up-to-date documentation and code examples from Context7.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "query_documentation",
+    "provider": "upstash"
+  },
+  {
+    "constraints": {},
+    "description": "Get current Meilisearch connection settings",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_connection_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Update Meilisearch connection settings",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_connection_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Check Meilisearch server health",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "health_check",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get Meilisearch version information",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_version",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get database statistics",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_stats",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new Meilisearch index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_index",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "List all Meilisearch indexes",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_indexes",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a Meilisearch index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_index",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get documents from an index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_documents",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Add documents to an index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "add_documents",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get current settings for an index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Update settings for an index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Search through Meilisearch indices. If indexUid is not provided, it will search across all indices.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "search",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get information about a specific task",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_task",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get list of tasks with optional filters",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_tasks",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Cancel tasks based on filters",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "cancel_tasks",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get list of API keys",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_keys",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new API key",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_key",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Delete an API key",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_key",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get comprehensive health status of Meilisearch",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_health_status",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed metrics for an index",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_index_metrics",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get system-level information",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_system_info",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Create a conversational chat completion using Meilisearch",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_chat_completion",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get list of available chat workspaces",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_chat_workspaces",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get settings for a specific chat workspace",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_chat_workspace_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Update settings for a specific chat workspace",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_chat_workspace_settings",
+    "provider": "meilisearch"
+  },
+  {
+    "constraints": {},
+    "description": "Get prompts that are stored in Langfuse",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_prompts",
+    "provider": "langfuse"
+  },
+  {
+    "constraints": {},
+    "description": "Get a prompt that is stored in Langfuse",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_prompt",
+    "provider": "langfuse"
+  },
+  {
+    "constraints": {},
+    "description": "Create multiple new entities in the knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "entities": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_entities",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Create multiple new relations between entities in the knowledge graph. Relations should be in active voice",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "relations": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_relations",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Add new observations to existing entities in the knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "addedObservations": {
+          "type": "array"
+        },
+        "contents": {
+          "type": "array"
+        },
+        "entityName": {
+          "type": "string"
+        },
+        "observations": {
+          "type": "array"
+        },
+        "results": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "add_observations",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Delete multiple entities and their associated relations from the knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "entityNames": {
+          "type": "array"
+        },
+        "message": {
+          "type": "string"
+        },
+        "success": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_entities",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Delete specific observations from entities in the knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "deletions": {
+          "type": "array"
+        },
+        "entityName": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        },
+        "observations": {
+          "type": "array"
+        },
+        "success": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_observations",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Delete multiple relations from the knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "relations": {
+          "type": "array"
+        },
+        "success": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_relations",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Read the entire knowledge graph",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "entities": {
+          "type": "array"
+        },
+        "relations": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "read_graph",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Search for nodes in the knowledge graph based on a query",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "entities": {
+          "type": "array"
+        },
+        "query": {
+          "type": "string"
+        },
+        "relations": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "search_nodes",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Open specific nodes in the knowledge graph by their names",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "entities": {
+          "type": "array"
+        },
+        "names": {
+          "type": "array"
+        },
+        "relations": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "open_nodes",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Read the complete contents of a file as text. DEPRECATED: Use read_text_file instead.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "read_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Read the complete contents of a file from the file system as text. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "head": {
+          "type": "integer"
+        },
+        "path": {
+          "type": "string"
+        },
+        "tail": {
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "name": "read_text_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Read an image or audio file. Returns the base64 encoded data and MIME type. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "array"
+        },
+        "data": {
+          "type": "string"
+        },
+        "mimeType": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "read_media_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Read the contents of multiple files simultaneously. This is more ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "paths": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "read_multiple_files",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new file or completely overwrite an existing file with new content. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "write_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Make line-based edits to a text file. Each edit replaces exact line sequences ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "dryRun": {
+          "type": "boolean"
+        },
+        "edits": {
+          "type": "array"
+        },
+        "newText": {
+          "type": "string"
+        },
+        "oldText": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "edit_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new directory or ensure a directory exists. Can create multiple ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_directory",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Get a detailed listing of all files and directories in a specified path. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_directory",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Get a detailed listing of all files and directories in a specified path, including sizes. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_directory_with_sizes",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Get a recursive tree view of files and directories as a JSON structure. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "excludePatterns": {
+          "type": "array"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "directory_tree",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Move or rename files and directories. Can move files between directories ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "destination": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "move_file",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Recursively search for files and directories matching a pattern. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "excludePatterns": {
+          "type": "array"
+        },
+        "path": {
+          "type": "string"
+        },
+        "pattern": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "search_files",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve detailed metadata about a file or directory. Returns comprehensive ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_file_info",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Returns the list of directories that this server is allowed to access. ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "content": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_allowed_directories",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Echoes back the input string",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "echo",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Returns all environment variables, helpful for debugging MCP server configuration",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_env",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Returns the sum of two numbers",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_sum",
+    "provider": "modelcontextprotocol"
+  },
+  {
+    "constraints": {},
+    "description": "Search for Airbnb listings with various filters including location, dates, guests, and price range. Returns paginated results with direct links.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "airbnb_search",
+    "provider": "openbnb_org"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed information about a specific Airbnb listing including amenities, policies, location details, and highlights.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "airbnb_listing_details",
+    "provider": "openbnb_org"
+  },
+  {
+    "constraints": {},
+    "description": "Search for Airbnb listings with various filters and pagination. Provide direct links to the user",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "airbnb_search",
+    "provider": "openbnb_org"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed information about a specific Airbnb listing. Provide direct links to the user",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "airbnb_listing_details",
+    "provider": "openbnb_org"
+  },
+  {
+    "constraints": {},
+    "description": "Initialize connection to n8n instance. Use this tool whenever an n8n URL and API key are shared to establish the connection. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "apiKey": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "init_n8n",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all workflows from n8n. Use after init-n8n to see available workflows. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_workflows",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a workflow by ID. Use after list-workflows to get detailed information about a specific workflow. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new workflow in n8n. Use to set up a new workflow with optional nodes and connections. IMPORTANT: 1) Arguments must be provided as compact, single-line JSON without whitespace or newlines. 2) Must provide full workflow structure including nodes and connections arrays, even if empty. The ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "connections": {
+          "type": "object"
+        },
+        "nodes": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update an existing workflow in n8n. Use after get-workflow to modify a workflow",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "active": {
+          "type": "boolean"
+        },
+        "clientId": {
+          "type": "string"
+        },
+        "connections": {
+          "type": "object"
+        },
+        "id": {
+          "type": "string"
+        },
+        "nodes": {
+          "type": "array"
+        },
+        "settings": {
+          "type": "object"
+        },
+        "workflow": {
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "name": "update_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a workflow by ID. This action cannot be undone. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Activate a workflow by ID. This will enable the workflow to run. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "activate_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Deactivate a workflow by ID. This will prevent the workflow from running. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "deactivate_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all projects from n8n. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_projects",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new project in n8n. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a project by ID. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "projectId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update a project",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "projectId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "update_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all users from your instance. Only available for the instance owner.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_users",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create one or more users in your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "items": {
+          "type": "object"
+        },
+        "role": {
+          "type": "string"
+        },
+        "users": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_users",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Get user by ID or email address.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "idOrEmail": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_user",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a user from your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "idOrEmail": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_user",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all variables from n8n. NOTE: Requires n8n Enterprise license with variable management features enabled. Use after init-n8n to see available variables. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_variables",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new variable in n8n. NOTE: Requires n8n Enterprise license with variable management features enabled. Variables can be used across workflows to store and share data. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "key": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_variable",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a variable by ID. NOTE: Requires n8n Enterprise license with variable management features enabled. Use after list-variables to get the ID of the variable to delete. This action cannot be undone. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_variable",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a credential that can be used by nodes of the specified type. The credential type name can be found in the n8n UI when creating credentials (e.g., ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "data": {
+          "type": "object"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_credential",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a credential by ID. You must be the owner of the credentials.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_credential",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Show credential data schema for a specific credential type. The credential type name can be found in the n8n UI when creating credentials (e.g., ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "credentialTypeName": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_credential_schema",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all executions from your instance with optional filtering.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "includeData": {
+          "type": "boolean"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "string"
+        },
+        "workflowId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_executions",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a specific execution by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "includeData": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_execution",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a specific execution by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_execution",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new tag in your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "create_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all tags from your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "name": "list_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a specific tag by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update a tag",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "update_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a tag by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "delete_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Get tags associated with a workflow.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "workflowId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "get_workflow_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update tags associated with a workflow.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "clientId": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "items": {
+          "type": "object"
+        },
+        "tagIds": {
+          "type": "array"
+        },
+        "workflowId": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "update_workflow_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Generate a security audit for your n8n instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {
+        "categories": {
+          "type": "array"
+        },
+        "clientId": {
+          "type": "string"
+        },
+        "daysAbandonedWorkflow": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "name": "generate_audit",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Initialize connection to n8n instance. Use this tool whenever an n8n URL and API key are shared to establish the connection. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "init_n8n",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Initialize connection to n8n instance. Use this tool whenever an n8n URL and API key are shared to establish the connection. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "n8n_integration",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all workflows from n8n. Use after init-n8n to see available workflows. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_workflows",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a workflow by ID. Use after list-workflows to get detailed information about a specific workflow. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new workflow in n8n. Use to set up a new workflow with optional nodes and connections. IMPORTANT: 1) Arguments must be provided as compact, single-line JSON without whitespace or newlines. 2) Must provide full workflow structure including nodes and connections arrays, even if empty. The ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update an existing workflow in n8n. Use after get-workflow to modify a workflow",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a workflow by ID. This action cannot be undone. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Activate a workflow by ID. This will enable the workflow to run. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "activate_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Deactivate a workflow by ID. This will prevent the workflow from running. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "deactivate_workflow",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all projects from n8n. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_projects",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new project in n8n. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a project by ID. NOTE: Requires n8n Enterprise license with project management features enabled. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update a project",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_project",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all users from your instance. Only available for the instance owner.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_users",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create one or more users in your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_users",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Get user by ID or email address.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_user",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a user from your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_user",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "List all variables from n8n. NOTE: Requires n8n Enterprise license with variable management features enabled. Use after init-n8n to see available variables. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_variables",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new variable in n8n. NOTE: Requires n8n Enterprise license with variable management features enabled. Variables can be used across workflows to store and share data. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_variable",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a variable by ID. NOTE: Requires n8n Enterprise license with variable management features enabled. Use after list-variables to get the ID of the variable to delete. This action cannot be undone. IMPORTANT: Arguments must be provided as compact, single-line JSON without whitespace or newlines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_variable",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a credential that can be used by nodes of the specified type. The credential type name can be found in the n8n UI when creating credentials (e.g., ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_credential",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a credential by ID. You must be the owner of the credentials.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_credential",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Show credential data schema for a specific credential type. The credential type name can be found in the n8n UI when creating credentials (e.g., ",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_credential_schema",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all executions from your instance with optional filtering.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_executions",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a specific execution by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_execution",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a specific execution by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_execution",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new tag in your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve all tags from your instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve a specific tag by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update a tag",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Delete a tag by ID.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_tag",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Get tags associated with a workflow.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_workflow_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Update tags associated with a workflow.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_workflow_tags",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Generate a security audit for your n8n instance.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "generate_audit",
+    "provider": "illuminaresolutions"
+  },
+  {
+    "constraints": {},
+    "description": "Get an app by ID",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_app",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Delete an app by ID",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "delete_app",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "List all deployments for an app",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "download_logs",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new deployment for an app",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_deployment",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Get a deployment by ID",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_deployment",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Cancel a deployment by ID",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "cancel_deployment",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "List all instance sizes for `service`, `worker`, and `job` components supported by App Platform.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_instance_sizes",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Retrieve information about a specific instance size slug for `service`,`worker`, and `job` components.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_instance_size_by_slug",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "List all regions supported by App Platform.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_app_regions",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "Update alert destinations for an app",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "update_app_alert_destinations",
+    "provider": "digitalocean"
+  },
+  {
+    "constraints": {},
+    "description": "List all Heroku apps. Filter by personal, collaborator, team, or space.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_apps",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed information about an app, including configuration, dynos, and add-ons.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_app_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new app with customizable settings for region, team, and space.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_app",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Rename an existing app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "rename_app",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Deploy projects to Heroku with an app.json configuration.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "deploy_to_heroku",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Execute code or commands in a sandboxed environment on a Heroku one-off dyno.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "deploy_one_off_dyno",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List all dynos for an app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_list",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Scale the number of dynos up or down, or resize dynos.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_scale",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Restart specific dynos, process types, or all dynos.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_restart",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List all add-ons for all apps or for a specific app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_addons",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed information about a specific add-on.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_addon_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Provision a new add-on for an app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_addon",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Enable maintenance mode for an app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "maintenance_on",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Disable maintenance mode for an app.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "maintenance_off",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "View application logs.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_app_logs",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Create a new pipeline.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pipelines_create",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Promote apps to the next stage in a pipeline.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pipelines_promote",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List available pipelines.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pipelines_list",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Get detailed pipeline information.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pipelines_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List teams you belong to.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_teams",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List available spaces.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_private_spaces",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Execute SQL queries against the Heroku PostgreSQL database.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_psql",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Display detailed database information.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "View active queries and execution details.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_ps",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "View database locks and identify blocking transactions.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_locks",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Identify resource-intensive queries.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_outliers",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Manage database credentials and access.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_credentials",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Terminate specific database processes.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_kill",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Show database maintenance information.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_maintenance",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Manage database backups and schedules.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_backups",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Upgrade PostgreSQL to a newer version.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_upgrade",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List available AI inference models",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_ai_available_models",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Provision AI model access for app",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "provision_ai_model",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Make inference request to Heroku AI API",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "make_ai_inference",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List and monitor Heroku app dynos. View running dynos, check status/health, monitor process states, verify configurations.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_list",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Scale Heroku app dynos. Adjust quantities, change sizes, view formation details, manage resources.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_scale",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Restart Heroku app processes. Restart specific dynos, process types, or all dynos. Reset dyno states selectively.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "ps_restart",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List Heroku apps: owned, collaborator access, team/space filtering",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_apps",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Get app details: config, dynos, addons, access, domains",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_app_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Create app: custom name, region (US/EU), team, private space",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_app",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Rename app: validate and update app name",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "rename_app",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Execute SQL queries: analyze, debug, modify schema, manage data",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_psql",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "View database status: config, metrics, resources, health",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Monitor active queries: progress, resources, performance",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_ps",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Analyze locks: blocked queries, deadlocks, concurrency",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_locks",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Find resource-heavy queries: performance, patterns, optimization",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_outliers",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Manage access: credentials, permissions, security, monitoring",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_credentials",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Stop processes: stuck queries, blocking transactions, runaway operations",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_kill",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Track maintenance: windows, schedules, progress, planning",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_maintenance",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Manage backups: schedules, status, verification, recovery",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_backups",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Upgrade PostgreSQL: version migration, compatibility, safety",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "pg_upgrade",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "App logs: monitor/debug/filter by dyno/process/source",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_app_logs",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Lists accessible Heroku Teams. Use for: viewing teams, checking membership, getting team metadata, and verifying access. JSON output available.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_teams",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List add-ons: all apps or specific app, detailed metadata",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_addons",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Get add-on details: plan, state, billing",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "get_addon_info",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Create add-on: specify service, plan, custom names",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "create_addon",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List available add-on services and features",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_addon_services",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "List service plans: features, pricing, availability",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_addon_plans",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "Lists Heroku Private Spaces with CIDR blocks, regions, compliance and capacity details. JSON output supported.",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "list_private_spaces",
+    "provider": "heroku"
+  },
+  {
+    "constraints": {},
+    "description": "A test tool",
+    "expected_outputs": [
+      "json"
+    ],
+    "input_schema": {
+      "properties": {},
+      "type": "object"
+    },
+    "name": "test_tool",
+    "provider": "heroku"
+  }
+]

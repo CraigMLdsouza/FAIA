@@ -1,0 +1,36 @@
+{
+  "global_provider_rankings": [
+    {
+      "provider_id": "illuminaresolutions",
+      "score": 0.5468
+    },
+    {
+      "provider_id": "heroku",
+      "score": 0.4778
+    },
+    {
+      "provider_id": "meilisearch",
+      "score": 0.363
+    },
+    {
+      "provider_id": "modelcontextprotocol",
+      "score": 0.2357
+    },
+    {
+      "provider_id": "digitalocean",
+      "score": 0.1261
+    },
+    {
+      "provider_id": "openbnb_org",
+      "score": 0.1254
+    },
+    {
+      "provider_id": "upstash",
+      "score": 0.1244
+    },
+    {
+      "provider_id": "langfuse",
+      "score": 0.0632
+    }
+  ]
+}

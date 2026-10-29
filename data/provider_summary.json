@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-06-21T11:13:53.754971+00:00",
+  "provider_concentration_ratio": 0.3401,
+  "provider_counts": [
+    [
+      "illuminaresolutions",
+      67
+    ],
+    [
+      "heroku",
+      60
+    ],
+    [
+      "meilisearch",
+      26
+    ],
+    [
+      "modelcontextprotocol",
+      26
+    ],
+    [
+      "digitalocean",
+      10
+    ],
+    [
+      "openbnb_org",
+      4
+    ],
+    [
+      "upstash",
+      2
+    ],
+    [
+      "langfuse",
+      2
+    ]
+  ],
+  "provider_diversity_score": 0.664,
+  "provider_families": 8
+}

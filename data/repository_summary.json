@@ -1,0 +1,245 @@
+{
+  "repositories": {
+    "https://github.com/adhikasp/mcp-reddit": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "adhikasp",
+      "repository_score": 85,
+      "repository_url": "https://github.com/adhikasp/mcp-reddit",
+      "scoring_signals": {
+        "contains_tool_registration_metadata": 20,
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "mcp-reddit",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    },
+    "https://github.com/cyanheads/obsidian-mcp-server": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "cyanheads",
+      "repository_score": 110,
+      "repository_url": "https://github.com/cyanheads/obsidian-mcp-server",
+      "scoring_signals": {
+        "contains_tool_registration_metadata": 20,
+        "has_manifest_in_tree": 15,
+        "has_mcp_topic": 30,
+        "has_openapi_in_tree": 10,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "obsidian-mcp-server",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    },
+    "https://github.com/digitalocean/digitalocean-mcp": {
+      "artifacts_extracted": 11,
+      "avg_extraction_confidence": 0.7318,
+      "avg_tool_quality_score": 0.66,
+      "capability_provider": "digitalocean",
+      "repository_score": 30,
+      "repository_url": "https://github.com/digitalocean/digitalocean-mcp",
+      "scoring_signals": {
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20
+      },
+      "server_name": "digitalocean-mcp",
+      "tools_extracted": 10,
+      "validation_ratio": 0.9091
+    },
+    "https://github.com/github/github-mcp-server": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "github",
+      "repository_score": 80,
+      "repository_url": "https://github.com/github/github-mcp-server",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "github-mcp-server",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    },
+    "https://github.com/heroku/heroku-mcp-server": {
+      "artifacts_extracted": 62,
+      "avg_extraction_confidence": 0.875,
+      "avg_tool_quality_score": 0.7125,
+      "capability_provider": "heroku",
+      "repository_score": 45,
+      "repository_url": "https://github.com/heroku/heroku-mcp-server",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20
+      },
+      "server_name": "heroku-mcp-server",
+      "tools_extracted": 60,
+      "validation_ratio": 0.9677
+    },
+    "https://github.com/illuminaresolutions/n8n-mcp-server": {
+      "artifacts_extracted": 68,
+      "avg_extraction_confidence": 0.789,
+      "avg_tool_quality_score": 0.7769,
+      "capability_provider": "illuminaresolutions",
+      "repository_score": 35,
+      "repository_url": "https://github.com/illuminaresolutions/n8n-mcp-server",
+      "scoring_signals": {
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "n8n-mcp-server",
+      "tools_extracted": 67,
+      "validation_ratio": 0.9853
+    },
+    "https://github.com/langfuse/mcp-server-langfuse": {
+      "artifacts_extracted": 3,
+      "avg_extraction_confidence": 0.55,
+      "avg_tool_quality_score": 0.7,
+      "capability_provider": "langfuse",
+      "repository_score": 65,
+      "repository_url": "https://github.com/langfuse/mcp-server-langfuse",
+      "scoring_signals": {
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "mcp-server-langfuse",
+      "tools_extracted": 2,
+      "validation_ratio": 0.6667
+    },
+    "https://github.com/meilisearch/meilisearch-mcp": {
+      "artifacts_extracted": 27,
+      "avg_extraction_confidence": 0.7722,
+      "avg_tool_quality_score": 0.6577,
+      "capability_provider": "meilisearch",
+      "repository_score": 65,
+      "repository_url": "https://github.com/meilisearch/meilisearch-mcp",
+      "scoring_signals": {
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "meilisearch-mcp",
+      "tools_extracted": 26,
+      "validation_ratio": 0.963
+    },
+    "https://github.com/microsoft/playwright-mcp": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "microsoft",
+      "repository_score": 80,
+      "repository_url": "https://github.com/microsoft/playwright-mcp",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "playwright-mcp",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    },
+    "https://github.com/modelcontextprotocol/servers": {
+      "artifacts_extracted": 28,
+      "avg_extraction_confidence": 0.7732,
+      "avg_tool_quality_score": 0.8692,
+      "capability_provider": "modelcontextprotocol",
+      "repository_score": 35,
+      "repository_url": "https://github.com/modelcontextprotocol/servers",
+      "scoring_signals": {
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "servers",
+      "tools_extracted": 26,
+      "validation_ratio": 0.9286
+    },
+    "https://github.com/openbnb-org/mcp-server-airbnb": {
+      "artifacts_extracted": 6,
+      "avg_extraction_confidence": 0.6083,
+      "avg_tool_quality_score": 0.725,
+      "capability_provider": "openbnb_org",
+      "repository_score": 50,
+      "repository_url": "https://github.com/openbnb-org/mcp-server-airbnb",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "mcp-server-airbnb",
+      "tools_extracted": 4,
+      "validation_ratio": 0.6667
+    },
+    "https://github.com/ravitemer/mcp-hub": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "ravitemer",
+      "repository_score": 65,
+      "repository_url": "https://github.com/ravitemer/mcp-hub",
+      "scoring_signals": {
+        "has_mcp_topic": 30,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "mcp-hub",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    },
+    "https://github.com/upstash/context7": {
+      "artifacts_extracted": 4,
+      "avg_extraction_confidence": 0.5125,
+      "avg_tool_quality_score": 0.75,
+      "capability_provider": "upstash",
+      "repository_score": 90,
+      "repository_url": "https://github.com/upstash/context7",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_mcp_topic": 30,
+        "has_openapi_in_tree": 10,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "context7",
+      "tools_extracted": 2,
+      "validation_ratio": 0.5
+    },
+    "https://github.com/zilliztech/mcp-server-milvus": {
+      "artifacts_extracted": 1,
+      "avg_extraction_confidence": 0.05,
+      "avg_tool_quality_score": 0,
+      "capability_provider": "zilliztech",
+      "repository_score": 50,
+      "repository_url": "https://github.com/zilliztech/mcp-server-milvus",
+      "scoring_signals": {
+        "has_manifest_in_tree": 15,
+        "has_tool_source_in_tree": 10,
+        "mentions_modelcontextprotocol": 20,
+        "popular_repository": 5
+      },
+      "server_name": "mcp-server-milvus",
+      "tools_extracted": 0,
+      "validation_ratio": 0.0
+    }
+  }
+}

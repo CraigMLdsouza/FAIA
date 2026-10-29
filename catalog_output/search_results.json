@@ -1,0 +1,40 @@
+{
+  "capabilities": [
+    {
+      "capability_id": "READ_ISSUE",
+      "class": "CORE_TASK_ACTIONS",
+      "confidence": 100.0,
+      "domain": "ISSUE_OPERATIONS",
+      "match_reasons": [
+        "keyword_relevance_match"
+      ],
+      "providers": [
+        {
+          "archetype": "GENERAL",
+          "provider_id": "meilisearch",
+          "provider_score": 270.65
+        }
+      ],
+      "score": 167.0
+    }
+  ],
+  "detected_providers": [],
+  "diagnostics": {
+    "confidence_distribution": [
+      100.0
+    ],
+    "provider_capabilities_seeded_count": 0,
+    "provider_constraint_provider_count": 0,
+    "provider_constraint_removed_matches": false,
+    "provider_constraint_supported_capability_count": 0,
+    "provider_only_fallback_triggered": false
+  },
+  "matched_capabilities_count": 1,
+  "normalized_query": [
+    "task"
+  ],
+  "query": "task",
+  "query_intent": "BROAD_SEARCH",
+  "retrieval_status": "SUCCESS",
+  "suggestions": []
+}

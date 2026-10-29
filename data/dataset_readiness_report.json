@@ -1,0 +1,10 @@
+{
+  "average_tool_quality_score": 0.7457,
+  "average_tools_per_repository": 14.0714,
+  "dataset_readiness_score": 0.8056,
+  "extraction_confidence_score": 0.8355,
+  "generated_at": "2026-06-21T11:13:53.762971+00:00",
+  "provider_diversity_score": 0.664,
+  "provider_families": 8,
+  "validated_tools": 197
+}

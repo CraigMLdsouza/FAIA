@@ -1,0 +1,11 @@
+{
+  "provider_count": 8,
+  "providers_with_search_tokens": 8,
+  "provider_search_token_coverage_ratio": 1.0,
+  "capability_count": 51,
+  "domain_count": 6,
+  "similarity_edges": 1,
+  "ranking_coverage": 1.0,
+  "search_term_coverage": 1.0,
+  "status": "VALIDATED"
+}

@@ -1,0 +1,220 @@
+{
+  "CREATE_APP": [
+    "deploy dyno instance",
+    "heroku workspace initialization"
+  ],
+  "CREATE_CREDENTIAL": [
+    "credential",
+    "system core utility"
+  ],
+  "CREATE_DOCUMENT": [
+    "document",
+    "system core utility"
+  ],
+  "CREATE_FILE": [
+    "file",
+    "system core utility"
+  ],
+  "CREATE_MAINTENANCE": [
+    "maintenance",
+    "system core utility"
+  ],
+  "CREATE_MESSAGE": [
+    "message",
+    "system core utility"
+  ],
+  "CREATE_METADATA_TAG": [
+    "metadata_tag",
+    "system core utility"
+  ],
+  "CREATE_MODEL": [
+    "model",
+    "system core utility"
+  ],
+  "CREATE_SEARCH": [
+    "search",
+    "system core utility"
+  ],
+  "CREATE_SYSTEM": [
+    "system",
+    "system core utility"
+  ],
+  "CREATE_VECTOR": [
+    "system core utility",
+    "vector"
+  ],
+  "CREATE_WORKFLOW": [
+    "n8n trigger instantiation",
+    "provision automation pipeline"
+  ],
+  "DELETE_APP": [
+    "app",
+    "system core utility"
+  ],
+  "DELETE_CREDENTIAL": [
+    "credential",
+    "system core utility"
+  ],
+  "DELETE_DB_ADMIN": [
+    "db_admin",
+    "system core utility"
+  ],
+  "DELETE_MAINTENANCE": [
+    "maintenance",
+    "system core utility"
+  ],
+  "DELETE_METADATA_TAG": [
+    "metadata_tag",
+    "system core utility"
+  ],
+  "DELETE_SEARCH": [
+    "search",
+    "system core utility"
+  ],
+  "DELETE_SYSTEM": [
+    "system",
+    "system core utility"
+  ],
+  "DELETE_VECTOR": [
+    "system core utility",
+    "vector"
+  ],
+  "EXECUTE_APP": [
+    "app",
+    "system core utility"
+  ],
+  "EXECUTE_CREDENTIAL": [
+    "credential",
+    "system core utility"
+  ],
+  "EXECUTE_DB_ADMIN": [
+    "db_admin",
+    "system core utility"
+  ],
+  "EXECUTE_DOCUMENT": [
+    "document",
+    "system core utility"
+  ],
+  "EXECUTE_FILE": [
+    "file",
+    "system core utility"
+  ],
+  "EXECUTE_MODEL": [
+    "model",
+    "system core utility"
+  ],
+  "EXECUTE_SEARCH": [
+    "find",
+    "find online information",
+    "google pages",
+    "lookup",
+    "queries",
+    "query",
+    "web search"
+  ],
+  "EXECUTE_SYSTEM": [
+    "system",
+    "system core utility"
+  ],
+  "READ_ADDON": [
+    "addon",
+    "system core utility"
+  ],
+  "READ_APP": [
+    "app",
+    "system core utility"
+  ],
+  "READ_CREDENTIAL": [
+    "credential",
+    "system core utility"
+  ],
+  "READ_DB_ADMIN": [
+    "db_admin",
+    "system core utility"
+  ],
+  "READ_FILE": [
+    "file",
+    "system core utility"
+  ],
+  "READ_ISSUE": [
+    "incident",
+    "incident trace summary view",
+    "incidents",
+    "issue",
+    "lookup ticket attributes",
+    "task",
+    "tasks",
+    "ticket",
+    "tickets"
+  ],
+  "READ_MAINTENANCE": [
+    "maintenance",
+    "system core utility"
+  ],
+  "READ_MESSAGE": [
+    "message",
+    "system core utility"
+  ],
+  "READ_METADATA_TAG": [
+    "metadata_tag",
+    "system core utility"
+  ],
+  "READ_MODEL": [
+    "model",
+    "system core utility"
+  ],
+  "READ_SEARCH": [
+    "lookup",
+    "queries",
+    "query",
+    "search"
+  ],
+  "READ_SYSTEM": [
+    "system",
+    "system core utility"
+  ],
+  "READ_VECTOR": [
+    "system core utility",
+    "vector"
+  ],
+  "READ_WORKFLOW": [
+    "system core utility",
+    "workflow"
+  ],
+  "UPDATE_ADDON": [
+    "addon",
+    "system core utility"
+  ],
+  "UPDATE_APP": [
+    "app",
+    "system core utility"
+  ],
+  "UPDATE_DATABASE": [
+    "database",
+    "system core utility"
+  ],
+  "UPDATE_FILE": [
+    "file",
+    "system core utility"
+  ],
+  "UPDATE_MESSAGE": [
+    "message",
+    "system core utility"
+  ],
+  "UPDATE_METADATA_TAG": [
+    "metadata_tag",
+    "system core utility"
+  ],
+  "UPDATE_SEARCH": [
+    "search",
+    "system core utility"
+  ],
+  "UPDATE_SYSTEM": [
+    "system",
+    "system core utility"
+  ],
+  "UPDATE_WORKFLOW": [
+    "system core utility",
+    "workflow"
+  ]
+}

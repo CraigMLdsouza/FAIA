@@ -1,0 +1,2642 @@
+{
+  "CREATE_APP": {
+    "capability_id": "CREATE_APP",
+    "capability_name": "Create App",
+    "effect": "CREATE",
+    "primary_resource": "APP",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking app targets.",
+    "confidence": 0.56,
+    "domain_confidence": 0.56,
+    "secondary_resources": [
+      "WORKFLOW"
+    ],
+    "tool_count": 7,
+    "provider_count": 2,
+    "coverage_score": 0.78,
+    "search_relevance_score": 0.692,
+    "capability_fingerprint": "ecfd49c9dc55773b6ce2c71a181e752167a5a2a944179d91149dfc746da9d64c",
+    "capability_signature": "5c454fc62863f109272de3171e7e07fffb98ea14c3a5dc18c791076b7a1e1147",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "app"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "tools": [
+      "digitalocean::create_deployment",
+      "heroku::create_addon",
+      "heroku::create_app",
+      "heroku::deploy_one_off_dyno",
+      "heroku::deploy_to_heroku",
+      "heroku::make_ai_inference",
+      "heroku::provision_ai_model"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_CREDENTIAL": {
+    "capability_id": "CREATE_CREDENTIAL",
+    "capability_name": "Create Credential",
+    "effect": "CREATE",
+    "primary_resource": "CREDENTIAL",
+    "capability_class": "ACCESS_CONTROL",
+    "capability_group": "CREDENTIAL_MANAGEMENT",
+    "capability_domain": "CORE_IDENTITY",
+    "intent_category": "Security & Access Control",
+    "description": "Unified production integration component tracking credential targets.",
+    "confidence": 0.79,
+    "domain_confidence": 0.79,
+    "secondary_resources": [
+      "SYSTEM",
+      "WORKFLOW"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5489,
+    "capability_fingerprint": "499bb04f2f7c547f0d9daac4fa979b4d63b81ecc0fc111bfec6aaf21fc0f421d",
+    "capability_signature": "a58883e6ac427ee358d472f2524d6558bcd28d25f56daa7c285f7b2b99935568",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "credential",
+        "credentials"
+      ],
+      "schema_matches": [
+        "clientId",
+        "data",
+        "type"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.82
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::create_credential"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_DOCUMENT": {
+    "capability_id": "CREATE_DOCUMENT",
+    "capability_name": "Create Document",
+    "effect": "CREATE",
+    "primary_resource": "DOCUMENT",
+    "capability_class": "KNOWLEDGE_LOOKUP",
+    "capability_group": "DOCUMENTATION",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking document targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "SYSTEM",
+      "WORKFLOW"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "5f9e7ed4274faa98d453d0852ea785df910acebfcdfe19e6137c92e7502e83e5",
+    "capability_signature": "8267d5298ea7d59803786df1e4080bd036abe5df6c6c3ba07654e5e61c95275f",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "note"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::create_project"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_FILE": {
+    "capability_id": "CREATE_FILE",
+    "capability_name": "Create File",
+    "effect": "CREATE",
+    "primary_resource": "FILE",
+    "capability_class": "STORAGE_OPERATIONS",
+    "capability_group": "FILE_STORAGE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking file targets.",
+    "confidence": 0.88,
+    "domain_confidence": 0.88,
+    "secondary_resources": [
+      "WORKFLOW",
+      "MAINTENANCE",
+      "SYSTEM"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.6258,
+    "capability_fingerprint": "b69f6cd1f255f262fe8760f9c3d19c2e7ee7b6f8993c3e6b09c9f3d993b65eaa",
+    "capability_signature": "bca25d156d1314b39b50fe4b11688c098883364e9950de27d29ff10b296579da",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "content",
+        "file"
+      ],
+      "schema_matches": [
+        "content",
+        "path"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 1.0
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::create_directory",
+      "modelcontextprotocol::write_file"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_MAINTENANCE": {
+    "capability_id": "CREATE_MAINTENANCE",
+    "capability_name": "Create Maintenance",
+    "effect": "CREATE",
+    "primary_resource": "MAINTENANCE",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking maintenance targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "WORKFLOW"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "8848d7020537318c4b97cf41c303690e4d764868fa5d14fce524131561c32cb2",
+    "capability_signature": "5c52c9c84775fad7d687c2fdb2af9cc4a43e108d933e1ceebccc9d3eebc866b3",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "on"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::create_addon"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_MESSAGE": {
+    "capability_id": "CREATE_MESSAGE",
+    "capability_name": "Create Message",
+    "effect": "CREATE",
+    "primary_resource": "MESSAGE",
+    "capability_class": "CHAT_OPERATIONS",
+    "capability_group": "MESSAGING",
+    "capability_domain": "COMMUNICATION",
+    "intent_category": "Team Collaboration",
+    "description": "Unified production integration component tracking message targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [
+      "MODEL",
+      "WORKFLOW",
+      "SEARCH"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4529,
+    "capability_fingerprint": "d27172acadad965278fa5a42bc9c8a1bd4dc18e930f4a5d8888ad87b6e8b9a77",
+    "capability_signature": "99e0503ce39a3cef55a2a8eaa152b218512f92f0ebe82acfc15ba22fc9009c6a",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "chat"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::create_chat_completion"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_METADATA_TAG": {
+    "capability_id": "CREATE_METADATA_TAG",
+    "capability_name": "Create Metadata Tag",
+    "effect": "CREATE",
+    "primary_resource": "METADATA_TAG",
+    "capability_class": "METADATA_GOVERNANCE",
+    "capability_group": "TAXONOMY_MANAGEMENT",
+    "capability_domain": "ISSUE_OPERATIONS",
+    "intent_category": "Project Management",
+    "description": "Unified production integration component tracking metadata_tag targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [
+      "WORKFLOW",
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4529,
+    "capability_fingerprint": "88a15a90befa0fa8d373288c8743fc067184374e3161368384f78325579e2d8a",
+    "capability_signature": "e8ff3c406361adccad7f4e04d3f58f829599cc47ddfc5c77d4e8113160416d1c",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "tag"
+      ],
+      "schema_matches": [
+        "clientId"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::create_tag"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_MODEL": {
+    "capability_id": "CREATE_MODEL",
+    "capability_name": "Create Model",
+    "effect": "CREATE",
+    "primary_resource": "MODEL",
+    "capability_class": "MODEL_INFERENCE",
+    "capability_group": "AI_OPERATIONS",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking model targets.",
+    "confidence": 0.53,
+    "domain_confidence": 0.53,
+    "secondary_resources": [
+      "SYSTEM",
+      "MAINTENANCE"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4858,
+    "capability_fingerprint": "225a722d6aa41649fd197654dbdc1a6bd609b70e12e301afc25d28462847cc50",
+    "capability_signature": "c05f1f9c1f1ec3d6641f27e79a6d7d93fbd79d5f35985ff98c217661c662894d",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "generate"
+      ],
+      "schema_matches": [
+        "categories",
+        "clientId",
+        "daysAbandonedWorkflow",
+        "items"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::generate_audit",
+      "illuminaresolutions::init_n8n"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_SEARCH": {
+    "capability_id": "CREATE_SEARCH",
+    "capability_name": "Create Search",
+    "effect": "CREATE",
+    "primary_resource": "SEARCH",
+    "capability_class": "EXTERNAL_SEARCH",
+    "capability_group": "WEB_RESEARCH",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking search targets.",
+    "confidence": 0.52,
+    "domain_confidence": 0.52,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 2,
+    "coverage_score": 0.6152,
+    "search_relevance_score": 0.5771,
+    "capability_fingerprint": "fc503b1001832ddaa73ed06c93cdbbddea3e899de20ab95dccbca7114834b145",
+    "capability_signature": "66dc32877a98bb99836c675f127fe4d96de506da1a3b734d1e32bec15aa533b4",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.09
+      }
+    },
+    "providers": [
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "tools": [
+      "illuminaresolutions::init_n8n",
+      "meilisearch::add_documents"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_SYSTEM": {
+    "capability_id": "CREATE_SYSTEM",
+    "capability_name": "Create System",
+    "effect": "CREATE",
+    "primary_resource": "SYSTEM",
+    "capability_class": "OS_EXECUTION",
+    "capability_group": "SYSTEM_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking system targets.",
+    "confidence": 0.78,
+    "domain_confidence": 0.78,
+    "secondary_resources": [
+      "VECTOR",
+      "MAINTENANCE",
+      "FILE"
+    ],
+    "tool_count": 4,
+    "provider_count": 2,
+    "coverage_score": 0.701,
+    "search_relevance_score": 0.7326,
+    "capability_fingerprint": "fc3b6a169d3abcc125d5742c41f47e36d642785be0d547ad0e39a2f5d1d46e29",
+    "capability_signature": "84bb54185689ab9f12f3ad0b6b032edd671cb50477644094dfe7884ede16e84a",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "observations"
+      ],
+      "schema_matches": [
+        "addedObservations",
+        "contents",
+        "entityName",
+        "observations",
+        "results"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 1.0
+      }
+    },
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "illuminaresolutions::create_project",
+      "illuminaresolutions::create_users",
+      "illuminaresolutions::create_workflow",
+      "modelcontextprotocol::add_observations"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_VECTOR": {
+    "capability_id": "CREATE_VECTOR",
+    "capability_name": "Create Vector",
+    "effect": "CREATE",
+    "primary_resource": "VECTOR",
+    "capability_class": "EMBEDDING_MANAGEMENT",
+    "capability_group": "VECTOR_DATABASE",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking vector targets.",
+    "confidence": 0.95,
+    "domain_confidence": 0.95,
+    "secondary_resources": [
+      "WORKFLOW",
+      "SYSTEM"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.6538,
+    "capability_fingerprint": "b2dade12a44b9ef00fcf46311c3392adfe076d88600adb4fbcdffea9d1472298",
+    "capability_signature": "a44a89639a28b105f67d1798ff874c7dd86c4a4e7ea2d7ad9019c1a476450aaa",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "entities",
+        "graph"
+      ],
+      "schema_matches": [
+        "entities"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 1.0
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::create_entities",
+      "modelcontextprotocol::create_relations"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "CREATE_WORKFLOW": {
+    "capability_id": "CREATE_WORKFLOW",
+    "capability_name": "Create Workflow",
+    "effect": "CREATE",
+    "primary_resource": "WORKFLOW",
+    "capability_class": "PIPELINE_ORCHESTRATION",
+    "capability_group": "WORKFLOW_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking workflow targets.",
+    "confidence": 0.69,
+    "domain_confidence": 0.69,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 5,
+    "provider_count": 3,
+    "coverage_score": 0.8444,
+    "search_relevance_score": 0.7826,
+    "capability_fingerprint": "6d22a842efeeb9439bd22f40e19e924a400607006d4ee8bf8eed287033d6da68",
+    "capability_signature": "da9f758dabd4f6c6250be9d64b9ac40c4c86685faebf1b407f409c6fd55a1886",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "create"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "tools": [
+      "heroku::pipelines_create",
+      "illuminaresolutions::create_variable",
+      "illuminaresolutions::create_workflow",
+      "meilisearch::create_index",
+      "meilisearch::create_key"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_APP": {
+    "capability_id": "DELETE_APP",
+    "capability_name": "Delete App",
+    "effect": "DELETE",
+    "primary_resource": "APP",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking app targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "cf35906b6010e1fde10ac6ebea16548b14060bdc0490252c91f1dece62d9f4b4",
+    "capability_signature": "6eef6bd7bd93079353c24d5ab10da1aea6c60485070ad7d4cb3009db14ccb55b",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "app"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "digitalocean"
+    ],
+    "tools": [
+      "digitalocean::delete_app"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_CREDENTIAL": {
+    "capability_id": "DELETE_CREDENTIAL",
+    "capability_name": "Delete Credential",
+    "effect": "DELETE",
+    "primary_resource": "CREDENTIAL",
+    "capability_class": "ACCESS_CONTROL",
+    "capability_group": "CREDENTIAL_MANAGEMENT",
+    "capability_domain": "CORE_IDENTITY",
+    "intent_category": "Security & Access Control",
+    "description": "Unified production integration component tracking credential targets.",
+    "confidence": 0.79,
+    "domain_confidence": 0.79,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5489,
+    "capability_fingerprint": "03bb90239e0748f8f0cdc372551932dfeda263cbbdf0323a0b64b07dc56af37c",
+    "capability_signature": "b1fe108be296710efd780f006f6d54ec017ee660ea5064d4c1cce1b4f17c45e2",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "credential",
+        "credentials"
+      ],
+      "schema_matches": [
+        "clientId",
+        "id"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.82
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::delete_credential"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_DB_ADMIN": {
+    "capability_id": "DELETE_DB_ADMIN",
+    "capability_name": "Delete Db Admin",
+    "effect": "DELETE",
+    "primary_resource": "DB_ADMIN",
+    "capability_class": "DBA_MAINTENANCE",
+    "capability_group": "DATABASE_GOVERNANCE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking db_admin targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "DOCUMENT",
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "8b9d91f1d8af18b7d64d9e331d26c987a5b0e0ba6b1acc31bf9fdc243079bcd7",
+    "capability_signature": "4bf3c0bdd9545c86ec0e62726e4e71dd755c75614e4cfaf770edfe21aece39ca",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "list"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::delete_variable"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_MAINTENANCE": {
+    "capability_id": "DELETE_MAINTENANCE",
+    "capability_name": "Delete Maintenance",
+    "effect": "DELETE",
+    "primary_resource": "MAINTENANCE",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking maintenance targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4529,
+    "capability_fingerprint": "7c992e620031af576b672d4a9df7fc3e2c758eed69714970f9265b46b23cb88a",
+    "capability_signature": "c2f3eb2136d93c278419a4cbead35c1fc641037986aaa05083150de2c8b20532",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "on"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::cancel_tasks"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_METADATA_TAG": {
+    "capability_id": "DELETE_METADATA_TAG",
+    "capability_name": "Delete Metadata Tag",
+    "effect": "DELETE",
+    "primary_resource": "METADATA_TAG",
+    "capability_class": "METADATA_GOVERNANCE",
+    "capability_group": "TAXONOMY_MANAGEMENT",
+    "capability_domain": "ISSUE_OPERATIONS",
+    "intent_category": "Project Management",
+    "description": "Unified production integration component tracking metadata_tag targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "bf11f74343e96c0dffe4ed3a8bd8d61c6fc0475f733a53ba996e1049e80e52c6",
+    "capability_signature": "f59dafc858c50ea8173dcf77c1c4d113bec0c4b4570f3a332fe475bc8f2ca9ab",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "tag"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::delete_tag"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_SEARCH": {
+    "capability_id": "DELETE_SEARCH",
+    "capability_name": "Delete Search",
+    "effect": "DELETE",
+    "primary_resource": "SEARCH",
+    "capability_class": "EXTERNAL_SEARCH",
+    "capability_group": "WEB_RESEARCH",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking search targets.",
+    "confidence": 0.35,
+    "domain_confidence": 0.35,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4138,
+    "capability_fingerprint": "1f3a4dfad7252461ca0501a2f96f28826cc74bb43f9beb3bbaa61fd0fbad3e21",
+    "capability_signature": "7664407caa9b5a6e65f65f3cc1cadf1c16e1138202e4637bebd730eed106e404",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.09
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::delete_index",
+      "meilisearch::delete_key"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_SYSTEM": {
+    "capability_id": "DELETE_SYSTEM",
+    "capability_name": "Delete System",
+    "effect": "DELETE",
+    "primary_resource": "SYSTEM",
+    "capability_class": "OS_EXECUTION",
+    "capability_group": "SYSTEM_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking system targets.",
+    "confidence": 0.72,
+    "domain_confidence": 0.72,
+    "secondary_resources": [
+      "VECTOR",
+      "MAINTENANCE",
+      "MESSAGE"
+    ],
+    "tool_count": 8,
+    "provider_count": 3,
+    "coverage_score": 0.9125,
+    "search_relevance_score": 0.8355,
+    "capability_fingerprint": "e0c83ee62dd22b7be713190e9aadfc844bb40f48cdcaf3d52d489af550f33c89",
+    "capability_signature": "3f4c98593cee303c03ccd87cd1296fe240be97120730a0fde1ae66b4bfb0d474",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "observations"
+      ],
+      "schema_matches": [
+        "deletions",
+        "entityName",
+        "message",
+        "observations",
+        "success"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.95
+      }
+    },
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "digitalocean::cancel_deployment",
+      "illuminaresolutions::delete_execution",
+      "illuminaresolutions::delete_project",
+      "illuminaresolutions::delete_tag",
+      "illuminaresolutions::delete_user",
+      "illuminaresolutions::delete_variable",
+      "illuminaresolutions::delete_workflow",
+      "modelcontextprotocol::delete_observations"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "DELETE_VECTOR": {
+    "capability_id": "DELETE_VECTOR",
+    "capability_name": "Delete Vector",
+    "effect": "DELETE",
+    "primary_resource": "VECTOR",
+    "capability_class": "EMBEDDING_MANAGEMENT",
+    "capability_group": "VECTOR_DATABASE",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking vector targets.",
+    "confidence": 0.95,
+    "domain_confidence": 0.95,
+    "secondary_resources": [
+      "MESSAGE",
+      "SYSTEM"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.6538,
+    "capability_fingerprint": "5c4fc7cab0c91baade336c3f63975d29e000f379ccc85b127f756feaa98fa257",
+    "capability_signature": "b963a6d8b2da173cbd0b5cb5011763ebef616780800430bced4353b955eb4e67",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "entities",
+        "graph",
+        "relations"
+      ],
+      "schema_matches": [
+        "entityNames",
+        "message",
+        "success"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 1.0
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::delete_entities",
+      "modelcontextprotocol::delete_relations"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_APP": {
+    "capability_id": "EXECUTE_APP",
+    "capability_name": "Execute App",
+    "effect": "EXECUTE",
+    "primary_resource": "APP",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking app targets.",
+    "confidence": 0.42,
+    "domain_confidence": 0.42,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 4,
+    "provider_count": 1,
+    "coverage_score": 0.5421,
+    "search_relevance_score": 0.4933,
+    "capability_fingerprint": "67beab25c6fe17b0bf70063ea0aaec06a3887f3ecf226feb4cd4207271a3bde4",
+    "capability_signature": "71c73fcb386ba354257f3ccab832266500cf3aaf25cc09d6892fcde6d89b30e0",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "dynos"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::maintenance_off",
+      "heroku::maintenance_on",
+      "heroku::pg_psql",
+      "heroku::ps_restart"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_CREDENTIAL": {
+    "capability_id": "EXECUTE_CREDENTIAL",
+    "capability_name": "Execute Credential",
+    "effect": "EXECUTE",
+    "primary_resource": "CREDENTIAL",
+    "capability_class": "ACCESS_CONTROL",
+    "capability_group": "CREDENTIAL_MANAGEMENT",
+    "capability_domain": "CORE_IDENTITY",
+    "intent_category": "Security & Access Control",
+    "description": "Unified production integration component tracking credential targets.",
+    "confidence": 0.32,
+    "domain_confidence": 0.32,
+    "secondary_resources": [],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.3609,
+    "capability_fingerprint": "ff0b8c2c24e8ca78c0bb4b9ee4bda15d3c1deab6aea68e1eb2119508c977740f",
+    "capability_signature": "6288cfb2329ee8727704c5239c6990b26174e1135c0e97e6c114d75da082b96b",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "credentials"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::pg_credentials"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_DB_ADMIN": {
+    "capability_id": "EXECUTE_DB_ADMIN",
+    "capability_name": "Execute Db Admin",
+    "effect": "EXECUTE",
+    "primary_resource": "DB_ADMIN",
+    "capability_class": "DBA_MAINTENANCE",
+    "capability_group": "DATABASE_GOVERNANCE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking db_admin targets.",
+    "confidence": 0.32,
+    "domain_confidence": 0.32,
+    "secondary_resources": [],
+    "tool_count": 4,
+    "provider_count": 1,
+    "coverage_score": 0.5421,
+    "search_relevance_score": 0.4533,
+    "capability_fingerprint": "a62a82dc3c874dfe3fcb4b5017ce25b73393674dadc5e07452b5689c70b21756",
+    "capability_signature": "61b0c031fad823b094ce4dae42ce3e490933c8a8ae3024bee765a0f39e820534",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "backups"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::pg_backups",
+      "heroku::pg_locks",
+      "heroku::pg_maintenance",
+      "heroku::pg_upgrade"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_DOCUMENT": {
+    "capability_id": "EXECUTE_DOCUMENT",
+    "capability_name": "Execute Document",
+    "effect": "EXECUTE",
+    "primary_resource": "DOCUMENT",
+    "capability_class": "KNOWLEDGE_LOOKUP",
+    "capability_group": "DOCUMENTATION",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking document targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "235445cd580503bd553f417aee1ecc97cc68718d1df9bf5b5c8062ac95452dcb",
+    "capability_signature": "4caaf0ba92d724ee7ca13fff44a755556b0945e5989660401c1222ffa65094c3",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "documentation"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "upstash"
+    ],
+    "tools": [
+      "upstash::query_documentation"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_FILE": {
+    "capability_id": "EXECUTE_FILE",
+    "capability_name": "Execute File",
+    "effect": "EXECUTE",
+    "primary_resource": "FILE",
+    "capability_class": "STORAGE_OPERATIONS",
+    "capability_group": "FILE_STORAGE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking file targets.",
+    "confidence": 0.81,
+    "domain_confidence": 0.81,
+    "secondary_resources": [
+      "SYSTEM",
+      "SEARCH",
+      "MAINTENANCE"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5569,
+    "capability_fingerprint": "c088d205a591313648347898f4ee06bf016c60412e3385cfd2b4d980fe51f0d5",
+    "capability_signature": "4db27b1dd10104eb3c5c8d63539df6ed2254ef589aa6a4571a395413daa31ff1",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "directories"
+      ],
+      "schema_matches": [
+        "content",
+        "excludePatterns",
+        "path",
+        "pattern"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.77
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::search_files"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_MODEL": {
+    "capability_id": "EXECUTE_MODEL",
+    "capability_name": "Execute Model",
+    "effect": "EXECUTE",
+    "primary_resource": "MODEL",
+    "capability_class": "MODEL_INFERENCE",
+    "capability_group": "AI_OPERATIONS",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking model targets.",
+    "confidence": 0.41,
+    "domain_confidence": 0.41,
+    "secondary_resources": [
+      "SEARCH",
+      "SYSTEM"
+    ],
+    "tool_count": 2,
+    "provider_count": 2,
+    "coverage_score": 0.6152,
+    "search_relevance_score": 0.5331,
+    "capability_fingerprint": "ceceab08b390724cabeca63883e70b36b63ba806fc72ba70502406cf9953f8f8",
+    "capability_signature": "a1c07d9f41555a91ec3a5bb81a0593a024c4e549b2abd6b738f0de26530c9230",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "tool"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "heroku::test_tool",
+      "illuminaresolutions::n8n_integration"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_SEARCH": {
+    "capability_id": "EXECUTE_SEARCH",
+    "capability_name": "Execute Search",
+    "effect": "EXECUTE",
+    "primary_resource": "SEARCH",
+    "capability_class": "EXTERNAL_SEARCH",
+    "capability_group": "WEB_RESEARCH",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking search targets.",
+    "confidence": 0.47,
+    "domain_confidence": 0.47,
+    "secondary_resources": [],
+    "tool_count": 3,
+    "provider_count": 2,
+    "coverage_score": 0.6635,
+    "search_relevance_score": 0.5861,
+    "capability_fingerprint": "e01083998092aa65a673f198fd0f464bfd7fd4bff18f957dd5cd14999e30a134",
+    "capability_signature": "d7288c1e81dc8c829ef3a0032a5e19f73ef7d1a678a7694f6fcadf7f363325eb",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.09
+      }
+    },
+    "providers": [
+      "meilisearch",
+      "openbnb_org"
+    ],
+    "tools": [
+      "meilisearch::health_check",
+      "meilisearch::search",
+      "openbnb_org::airbnb_search"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "EXECUTE_SYSTEM": {
+    "capability_id": "EXECUTE_SYSTEM",
+    "capability_name": "Execute System",
+    "effect": "EXECUTE",
+    "primary_resource": "SYSTEM",
+    "capability_class": "OS_EXECUTION",
+    "capability_group": "SYSTEM_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking system targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [],
+    "tool_count": 4,
+    "provider_count": 3,
+    "coverage_score": 0.8138,
+    "search_relevance_score": 0.7083,
+    "capability_fingerprint": "815fad020389d87ca70ddcf70e43d033876f0fa5c90179681082ba000e454b56",
+    "capability_signature": "9c5a7a8d15766c361c644bcbe48b119d744f322cce536a5ae90e3d359077874a",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "id"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "upstash"
+    ],
+    "tools": [
+      "illuminaresolutions::activate_workflow",
+      "illuminaresolutions::deactivate_workflow",
+      "modelcontextprotocol::search_nodes",
+      "upstash::resolve_context7_library_id"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_ADDON": {
+    "capability_id": "READ_ADDON",
+    "capability_name": "Read Addon",
+    "effect": "READ",
+    "primary_resource": "ADDON",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking addon targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "DB_ADMIN",
+      "MAINTENANCE"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4738,
+    "capability_fingerprint": "b28c57c660d73af7eee2cb12a9381683acd16514785fb9d8f1f1247019d3c44d",
+    "capability_signature": "0fd3e1b30ea8d0703d27f2e7dd67156a9181d7f0aea26d1ab76e06df4ee8bfac",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "services"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::list_addon_plans",
+      "heroku::list_addon_services"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_APP": {
+    "capability_id": "READ_APP",
+    "capability_name": "Read App",
+    "effect": "READ",
+    "primary_resource": "APP",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking app targets.",
+    "confidence": 0.67,
+    "domain_confidence": 0.67,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 13,
+    "provider_count": 2,
+    "coverage_score": 0.874,
+    "search_relevance_score": 0.7924,
+    "capability_fingerprint": "458c80e94476c07af0346b99805ce90b04a08a8874ca5a6d53c6f742f6ab0ec5",
+    "capability_signature": "e1e11999a92e6d703482663a1bd842864b5723a3ebad1f09fe134ec34545c049",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "app"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "tools": [
+      "digitalocean::download_logs",
+      "digitalocean::get_app",
+      "digitalocean::get_instance_size_by_slug",
+      "digitalocean::list_app_regions",
+      "digitalocean::list_instance_sizes",
+      "heroku::get_app_info",
+      "heroku::get_app_logs",
+      "heroku::list_addons",
+      "heroku::list_apps",
+      "heroku::list_private_spaces",
+      "heroku::list_teams",
+      "heroku::ps_list",
+      "heroku::ps_scale"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_CREDENTIAL": {
+    "capability_id": "READ_CREDENTIAL",
+    "capability_name": "Read Credential",
+    "effect": "READ",
+    "primary_resource": "CREDENTIAL",
+    "capability_class": "ACCESS_CONTROL",
+    "capability_group": "CREDENTIAL_MANAGEMENT",
+    "capability_domain": "CORE_IDENTITY",
+    "intent_category": "Security & Access Control",
+    "description": "Unified production integration component tracking credential targets.",
+    "confidence": 0.9,
+    "domain_confidence": 0.9,
+    "secondary_resources": [
+      "DATABASE",
+      "SYSTEM"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5929,
+    "capability_fingerprint": "c75af5b0fcf0d148ca1f64b9da07274679ab09e65d323e630bb51ed7dfc735df",
+    "capability_signature": "c361b0792f26a9678f96eccc4eff5f6752e1e33d4506e76ec4b681057f12d902",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "credential",
+        "credentials",
+        "schema"
+      ],
+      "schema_matches": [
+        "clientId",
+        "credentialTypeName"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 1.0
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::get_credential_schema"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_DB_ADMIN": {
+    "capability_id": "READ_DB_ADMIN",
+    "capability_name": "Read Db Admin",
+    "effect": "READ",
+    "primary_resource": "DB_ADMIN",
+    "capability_class": "DBA_MAINTENANCE",
+    "capability_group": "DATABASE_GOVERNANCE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking db_admin targets.",
+    "confidence": 0.52,
+    "domain_confidence": 0.52,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 12,
+    "provider_count": 3,
+    "coverage_score": 0.9743,
+    "search_relevance_score": 0.7926,
+    "capability_fingerprint": "aa1bca7c5c285fb63ac6b19f56abba086a312c40fa62396c6c7a9a18616db0b1",
+    "capability_signature": "3a6ffa51b9679d02a5181d0d7a1e9df8d21f56fbf29eb9fb11d471652e76711f",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "list"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "tools": [
+      "heroku::list_ai_available_models",
+      "heroku::list_teams",
+      "heroku::pg_locks",
+      "heroku::pg_maintenance",
+      "heroku::pipelines_list",
+      "illuminaresolutions::list_projects",
+      "illuminaresolutions::list_variables",
+      "illuminaresolutions::list_workflows",
+      "meilisearch::get_chat_workspaces",
+      "meilisearch::get_keys",
+      "meilisearch::get_tasks",
+      "meilisearch::list_indexes"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_FILE": {
+    "capability_id": "READ_FILE",
+    "capability_name": "Read File",
+    "effect": "READ",
+    "primary_resource": "FILE",
+    "capability_class": "STORAGE_OPERATIONS",
+    "capability_group": "FILE_STORAGE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking file targets.",
+    "confidence": 0.82,
+    "domain_confidence": 0.82,
+    "secondary_resources": [
+      "MAINTENANCE",
+      "SYSTEM"
+    ],
+    "tool_count": 9,
+    "provider_count": 1,
+    "coverage_score": 0.6585,
+    "search_relevance_score": 0.7231,
+    "capability_fingerprint": "d3704bf7261ac1a41a57e02f7818c5abce9d088568d12a1b03f51e27e5db6e40",
+    "capability_signature": "98c3ef7067aacce807a33740be8af2ded88d2d0c186b7e9fc69a5213c0166211",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "file"
+      ],
+      "schema_matches": [
+        "content"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.59
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::directory_tree",
+      "modelcontextprotocol::get_file_info",
+      "modelcontextprotocol::list_allowed_directories",
+      "modelcontextprotocol::list_directory",
+      "modelcontextprotocol::list_directory_with_sizes",
+      "modelcontextprotocol::read_file",
+      "modelcontextprotocol::read_media_file",
+      "modelcontextprotocol::read_multiple_files",
+      "modelcontextprotocol::read_text_file"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_ISSUE": {
+    "capability_id": "READ_ISSUE",
+    "capability_name": "Read Issue",
+    "effect": "READ",
+    "primary_resource": "ISSUE",
+    "capability_class": "CORE_TASK_ACTIONS",
+    "capability_group": "TASK_MANAGEMENT",
+    "capability_domain": "ISSUE_OPERATIONS",
+    "intent_category": "Project Management",
+    "description": "Unified production integration component tracking issue targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4529,
+    "capability_fingerprint": "bff9a1ea3c6e05645564f849d85661b82accad1673e729b31e204ba7646a088f",
+    "capability_signature": "386a160db57611194503cb12c9be2bc6ba3c1818b8f57fa537d0a6234eaf6614",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "task"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::get_task"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_MAINTENANCE": {
+    "capability_id": "READ_MAINTENANCE",
+    "capability_name": "Read Maintenance",
+    "effect": "READ",
+    "primary_resource": "MAINTENANCE",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking maintenance targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "82a0fbd842dd2d7ea77a4f43bbcf3cb84c12275fd8a37c28651e1fcad85e656d",
+    "capability_signature": "1f6b4d0916d7cdb51148cad1304754cf8594eb67416fbe50f58aa44c8567b295",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "on"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::get_addon_info"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_MESSAGE": {
+    "capability_id": "READ_MESSAGE",
+    "capability_name": "Read Message",
+    "effect": "READ",
+    "primary_resource": "MESSAGE",
+    "capability_class": "CHAT_OPERATIONS",
+    "capability_group": "MESSAGING",
+    "capability_domain": "COMMUNICATION",
+    "intent_category": "Team Collaboration",
+    "description": "Unified production integration component tracking message targets.",
+    "confidence": 0.53,
+    "domain_confidence": 0.53,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 2,
+    "provider_count": 2,
+    "coverage_score": 0.6152,
+    "search_relevance_score": 0.5811,
+    "capability_fingerprint": "6c930a9b2c2db8a959faa23430e2a4955de963933a7cd0bf87b2eca29bc9978a",
+    "capability_signature": "76aab81e4e39880a305c617cad9e545cc82641cfa5d369f3a073091ce2ed29a1",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "chat"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku",
+      "meilisearch"
+    ],
+    "tools": [
+      "heroku::get_app_logs",
+      "meilisearch::get_chat_workspace_settings"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_METADATA_TAG": {
+    "capability_id": "READ_METADATA_TAG",
+    "capability_name": "Read Metadata Tag",
+    "effect": "READ",
+    "primary_resource": "METADATA_TAG",
+    "capability_class": "METADATA_GOVERNANCE",
+    "capability_group": "TAXONOMY_MANAGEMENT",
+    "capability_domain": "ISSUE_OPERATIONS",
+    "intent_category": "Project Management",
+    "description": "Unified production integration component tracking metadata_tag targets.",
+    "confidence": 0.53,
+    "domain_confidence": 0.53,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 3,
+    "provider_count": 1,
+    "coverage_score": 0.5046,
+    "search_relevance_score": 0.5148,
+    "capability_fingerprint": "d13e2632b6642e346202817b3d4d930651df41b3f3a22bcfe94e30af37f418f2",
+    "capability_signature": "f3a5fb51beaa8ac327e2b03864ac8f55e05cc5846be3112b118256bebc76aa50",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "tags"
+      ],
+      "schema_matches": [
+        "clientId",
+        "limit"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::get_tag",
+      "illuminaresolutions::get_workflow_tags",
+      "illuminaresolutions::list_tags"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_MODEL": {
+    "capability_id": "READ_MODEL",
+    "capability_name": "Read Model",
+    "effect": "READ",
+    "primary_resource": "MODEL",
+    "capability_class": "MODEL_INFERENCE",
+    "capability_group": "AI_OPERATIONS",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking model targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4738,
+    "capability_fingerprint": "9b57efbf983d7724179af750810e8c4c8c20faaee41c2c314527907ca699543b",
+    "capability_signature": "cf2b9054763cc3fc69abad487b4215a3a02c40efc200a229b4555c5223ed3d74",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "prompts"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "langfuse"
+    ],
+    "tools": [
+      "langfuse::get_prompt",
+      "langfuse::get_prompts"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_SEARCH": {
+    "capability_id": "READ_SEARCH",
+    "capability_name": "Read Search",
+    "effect": "READ",
+    "primary_resource": "SEARCH",
+    "capability_class": "EXTERNAL_SEARCH",
+    "capability_group": "WEB_RESEARCH",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking search targets.",
+    "confidence": 0.35,
+    "domain_confidence": 0.35,
+    "secondary_resources": [],
+    "tool_count": 8,
+    "provider_count": 1,
+    "coverage_score": 0.6408,
+    "search_relevance_score": 0.5245,
+    "capability_fingerprint": "3ce5ef615389eb1e2c4cd834237c96f9a06f61f59d6d72c7c97fce55b2078077",
+    "capability_signature": "a05a0423c4600871477ab476b209986018ce980e5a00ecbd414df33b0cc27986",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.09
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::get_connection_settings",
+      "meilisearch::get_documents",
+      "meilisearch::get_health_status",
+      "meilisearch::get_index_metrics",
+      "meilisearch::get_settings",
+      "meilisearch::get_stats",
+      "meilisearch::get_system_info",
+      "meilisearch::get_version"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_SYSTEM": {
+    "capability_id": "READ_SYSTEM",
+    "capability_name": "Read System",
+    "effect": "READ",
+    "primary_resource": "SYSTEM",
+    "capability_class": "OS_EXECUTION",
+    "capability_group": "SYSTEM_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking system targets.",
+    "confidence": 0.7,
+    "domain_confidence": 0.7,
+    "secondary_resources": [
+      "VECTOR",
+      "MAINTENANCE"
+    ],
+    "tool_count": 8,
+    "provider_count": 4,
+    "coverage_score": 1.0,
+    "search_relevance_score": 0.88,
+    "capability_fingerprint": "9c4ef601e5d227abee5432f7b513c5effaa54593a48e2e9d36cc0ad244e82044",
+    "capability_signature": "154b84169db3e13f1809707cca678e8e0cd4c7a93b2837a707071eeb7aeac95c",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "nodes"
+      ],
+      "schema_matches": [
+        "entities",
+        "names",
+        "relations"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.95
+      }
+    },
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "openbnb_org"
+    ],
+    "tools": [
+      "digitalocean::get_deployment",
+      "illuminaresolutions::get_execution",
+      "illuminaresolutions::get_tag",
+      "illuminaresolutions::get_user",
+      "illuminaresolutions::list_projects",
+      "illuminaresolutions::list_users",
+      "modelcontextprotocol::open_nodes",
+      "openbnb_org::airbnb_listing_details"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_VECTOR": {
+    "capability_id": "READ_VECTOR",
+    "capability_name": "Read Vector",
+    "effect": "READ",
+    "primary_resource": "VECTOR",
+    "capability_class": "EMBEDDING_MANAGEMENT",
+    "capability_group": "VECTOR_DATABASE",
+    "capability_domain": "AI_ENGINEERING",
+    "intent_category": "AI Development",
+    "description": "Unified production integration component tracking vector targets.",
+    "confidence": 0.81,
+    "domain_confidence": 0.81,
+    "secondary_resources": [
+      "SYSTEM",
+      "MAINTENANCE"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5569,
+    "capability_fingerprint": "131bebfbb31929559a46cf5b009e1edac321a2fa9cded2c5c1e4832736e54a1c",
+    "capability_signature": "e3c57e306374ba4932d2f80bc35fc0cff6b053803352d4d216d970c9b10c7b3b",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "graph"
+      ],
+      "schema_matches": [
+        "entities",
+        "relations"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.77
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::read_graph"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "READ_WORKFLOW": {
+    "capability_id": "READ_WORKFLOW",
+    "capability_name": "Read Workflow",
+    "effect": "READ",
+    "primary_resource": "WORKFLOW",
+    "capability_class": "PIPELINE_ORCHESTRATION",
+    "capability_group": "WORKFLOW_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking workflow targets.",
+    "confidence": 0.63,
+    "domain_confidence": 0.63,
+    "secondary_resources": [
+      "SYSTEM",
+      "DB_ADMIN"
+    ],
+    "tool_count": 5,
+    "provider_count": 2,
+    "coverage_score": 0.7316,
+    "search_relevance_score": 0.691,
+    "capability_fingerprint": "535f7aa62a2d36aede42e0d42a6c84a92288bdfc7c6d4cf94c5d699fdf07b009",
+    "capability_signature": "23b74dd1dff3b9bbd4b33fc1b73235413343d5d0eb37eed0b4bd341d35b8dc03",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "workflow",
+        "workflows"
+      ],
+      "schema_matches": [
+        "clientId",
+        "id"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.82
+      }
+    },
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "heroku::pg_ps",
+      "heroku::pipelines_info",
+      "illuminaresolutions::get_workflow",
+      "illuminaresolutions::get_workflow_tags",
+      "illuminaresolutions::list_executions"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_ADDON": {
+    "capability_id": "UPDATE_ADDON",
+    "capability_name": "Update Addon",
+    "effect": "UPDATE",
+    "primary_resource": "ADDON",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking addon targets.",
+    "confidence": 0.5,
+    "domain_confidence": 0.5,
+    "secondary_resources": [
+      "APP"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4329,
+    "capability_fingerprint": "1e8b616922d1c04c1a1d587bfcc2a0a090976d35044b0721c5d97d14b91a6a58",
+    "capability_signature": "a95b6f68790a2481c2c572f639d4af378c0bd3b9af6a8db8ab56f313722af46e",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "destinations"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "digitalocean"
+    ],
+    "tools": [
+      "digitalocean::update_app_alert_destinations"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_APP": {
+    "capability_id": "UPDATE_APP",
+    "capability_name": "Update App",
+    "effect": "UPDATE",
+    "primary_resource": "APP",
+    "capability_class": "PLATFORM_PROVISIONING",
+    "capability_group": "CLOUD_DEPLOYMENT",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking app targets.",
+    "confidence": 0.48,
+    "domain_confidence": 0.48,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4658,
+    "capability_fingerprint": "2ee9c67c9de55ed96fb4edd81a7abded8a2d6a7238ad0fb1884f2a9b83877ce8",
+    "capability_signature": "017cc00a8a3112531442ce1a0b21cbf67f7224632d5e96e936bd5b6d9780de3e",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "app"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::ps_scale",
+      "heroku::rename_app"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_DATABASE": {
+    "capability_id": "UPDATE_DATABASE",
+    "capability_name": "Update Database",
+    "effect": "UPDATE",
+    "primary_resource": "DATABASE",
+    "capability_class": "DATA_STORE_ACCESS",
+    "capability_group": "RELATIONAL_DB",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking database targets.",
+    "confidence": 0.69,
+    "domain_confidence": 0.69,
+    "secondary_resources": [
+      "CREDENTIAL"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.5089,
+    "capability_fingerprint": "4bfb0e541307d2a36c3adb22f48de5d2c8faab8e5bc73c215f62e1ff064b0d85",
+    "capability_signature": "0a3c122599197c2e86cd003ffe1d77b4f530a8f969626ca7c70f488ed25df72f",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "schema",
+        "sql"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.82
+      }
+    },
+    "providers": [
+      "heroku"
+    ],
+    "tools": [
+      "heroku::pg_psql"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_FILE": {
+    "capability_id": "UPDATE_FILE",
+    "capability_name": "Update File",
+    "effect": "UPDATE",
+    "primary_resource": "FILE",
+    "capability_class": "STORAGE_OPERATIONS",
+    "capability_group": "FILE_STORAGE",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking file targets.",
+    "confidence": 0.73,
+    "domain_confidence": 0.73,
+    "secondary_resources": [
+      "SYSTEM",
+      "MAINTENANCE"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.5658,
+    "capability_fingerprint": "8bee0f507a5b1b85fd1c73cd811e49ca1f99956c9f22cf12acf5117df02f147f",
+    "capability_signature": "499b9cd46d15173180108c8249533b1aa9c553a720ee8a4873607c942e0b6bc9",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "file"
+      ],
+      "schema_matches": [
+        "content",
+        "dryRun",
+        "edits",
+        "newText",
+        "oldText",
+        "path"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.77
+      }
+    },
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "tools": [
+      "modelcontextprotocol::edit_file",
+      "modelcontextprotocol::move_file"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_MESSAGE": {
+    "capability_id": "UPDATE_MESSAGE",
+    "capability_name": "Update Message",
+    "effect": "UPDATE",
+    "primary_resource": "MESSAGE",
+    "capability_class": "CHAT_OPERATIONS",
+    "capability_group": "MESSAGING",
+    "capability_domain": "COMMUNICATION",
+    "intent_category": "Team Collaboration",
+    "description": "Unified production integration component tracking message targets.",
+    "confidence": 0.55,
+    "domain_confidence": 0.55,
+    "secondary_resources": [
+      "SEARCH"
+    ],
+    "tool_count": 1,
+    "provider_count": 1,
+    "coverage_score": 0.3881,
+    "search_relevance_score": 0.4529,
+    "capability_fingerprint": "d3264f92f220869474e31932db804c125c24488b7bc7fd6fd1e849be43f59e18",
+    "capability_signature": "5c9f47a1e509e6994bb3b2359462687d70e6656401e6cd570cbad324b44579ee",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "chat"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::update_chat_workspace_settings"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_METADATA_TAG": {
+    "capability_id": "UPDATE_METADATA_TAG",
+    "capability_name": "Update Metadata Tag",
+    "effect": "UPDATE",
+    "primary_resource": "METADATA_TAG",
+    "capability_class": "METADATA_GOVERNANCE",
+    "capability_group": "TAXONOMY_MANAGEMENT",
+    "capability_domain": "ISSUE_OPERATIONS",
+    "intent_category": "Project Management",
+    "description": "Unified production integration component tracking metadata_tag targets.",
+    "confidence": 0.57,
+    "domain_confidence": 0.57,
+    "secondary_resources": [
+      "SYSTEM"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.5018,
+    "capability_fingerprint": "e006d9f4f9a9b929b54d5934f9cbb999b70b388b80c31b2c6b5bd192281c07ce",
+    "capability_signature": "4a11cbaf8bff5425fbfc8743d92f30fc5fc90c921182574e86bf7e2cee58ce1c",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "tag"
+      ],
+      "schema_matches": [
+        "clientId",
+        "id"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::update_tag",
+      "illuminaresolutions::update_workflow_tags"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_SEARCH": {
+    "capability_id": "UPDATE_SEARCH",
+    "capability_name": "Update Search",
+    "effect": "UPDATE",
+    "primary_resource": "SEARCH",
+    "capability_class": "EXTERNAL_SEARCH",
+    "capability_group": "WEB_RESEARCH",
+    "capability_domain": "KNOWLEDGE_SYSTEMS",
+    "intent_category": "Research & Insights",
+    "description": "Unified production integration component tracking search targets.",
+    "confidence": 0.35,
+    "domain_confidence": 0.35,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.4138,
+    "capability_fingerprint": "e6136e9912da366bdeb3d47bba1f951f96691311a6e416c286b57e23d54e0eae",
+    "capability_signature": "aebebc809d6012f05d5be43371e3c3ccf64abc6f27c3c6dddc623467eb7d01f7",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.09
+      }
+    },
+    "providers": [
+      "meilisearch"
+    ],
+    "tools": [
+      "meilisearch::update_connection_settings",
+      "meilisearch::update_settings"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_SYSTEM": {
+    "capability_id": "UPDATE_SYSTEM",
+    "capability_name": "Update System",
+    "effect": "UPDATE",
+    "primary_resource": "SYSTEM",
+    "capability_class": "OS_EXECUTION",
+    "capability_group": "SYSTEM_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking system targets.",
+    "confidence": 0.74,
+    "domain_confidence": 0.74,
+    "secondary_resources": [
+      "WORKFLOW",
+      "MAINTENANCE"
+    ],
+    "tool_count": 2,
+    "provider_count": 1,
+    "coverage_score": 0.4563,
+    "search_relevance_score": 0.5698,
+    "capability_fingerprint": "452abc96dac0600c48c0dc3fac71fce94648654954d182c5b5e9f1ba7512d63b",
+    "capability_signature": "39f56c48e8d2080e1189b7c970e1e6272ddab7637d91e84c64ec369926dde02c",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [],
+      "schema_matches": [
+        "active",
+        "clientId",
+        "connections",
+        "id",
+        "nodes",
+        "settings",
+        "workflow"
+      ],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.91
+      }
+    },
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "illuminaresolutions::update_project",
+      "illuminaresolutions::update_workflow"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  },
+  "UPDATE_WORKFLOW": {
+    "capability_id": "UPDATE_WORKFLOW",
+    "capability_name": "Update Workflow",
+    "effect": "UPDATE",
+    "primary_resource": "WORKFLOW",
+    "capability_class": "PIPELINE_ORCHESTRATION",
+    "capability_group": "WORKFLOW_AUTOMATION",
+    "capability_domain": "INFRASTRUCTURE",
+    "intent_category": "DevOps & Core Systems",
+    "description": "Unified production integration component tracking workflow targets.",
+    "confidence": 0.59,
+    "domain_confidence": 0.59,
+    "secondary_resources": [],
+    "tool_count": 2,
+    "provider_count": 2,
+    "coverage_score": 0.6152,
+    "search_relevance_score": 0.6051,
+    "capability_fingerprint": "aed4b32500237b258c616a763f1f48de3f8bb1ee6f720c368918ee070cd8c9b1",
+    "capability_signature": "bec5f3e1a155383059b85d3d5fef98459e6e8626c02025a6673d810d386a5cf9",
+    "ontology_version": "v2.2_integrated",
+    "catalog_version": "2.2.3",
+    "first_seen": "2026-06-20T23:49:00Z",
+    "last_updated": "2026-06-20T23:49:00Z",
+    "provenance": {
+      "resource_evidence": {},
+      "effect_evidence": {},
+      "ontology_matches": [
+        "workflow"
+      ],
+      "schema_matches": [],
+      "confidence_breakdown": {
+        "proportional_resource_factor": 0.41
+      }
+    },
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "tools": [
+      "heroku::pipelines_promote",
+      "illuminaresolutions::update_workflow"
+    ],
+    "authority_profile": {},
+    "permission_model": {},
+    "provider_popularity": 0.0,
+    "ecosystem_score": 0.0,
+    "agent_compatibility": {}
+  }
+}

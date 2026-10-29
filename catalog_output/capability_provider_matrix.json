@@ -1,0 +1,707 @@
+{
+  "CREATE_APP": {
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::create_deployment"
+      ],
+      "heroku": [
+        "heroku::create_addon",
+        "heroku::create_app",
+        "heroku::create_app",
+        "heroku::deploy_one_off_dyno",
+        "heroku::deploy_to_heroku",
+        "heroku::make_ai_inference",
+        "heroku::provision_ai_model"
+      ]
+    }
+  },
+  "CREATE_CREDENTIAL": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::create_credential",
+        "illuminaresolutions::create_credential"
+      ]
+    }
+  },
+  "CREATE_DOCUMENT": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::create_project"
+      ]
+    }
+  },
+  "CREATE_FILE": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::create_directory",
+        "modelcontextprotocol::write_file"
+      ]
+    }
+  },
+  "CREATE_MAINTENANCE": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::create_addon"
+      ]
+    }
+  },
+  "CREATE_MESSAGE": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::create_chat_completion"
+      ]
+    }
+  },
+  "CREATE_METADATA_TAG": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::create_tag",
+        "illuminaresolutions::create_tag"
+      ]
+    }
+  },
+  "CREATE_MODEL": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::generate_audit",
+        "illuminaresolutions::generate_audit",
+        "illuminaresolutions::init_n8n"
+      ]
+    }
+  },
+  "CREATE_SEARCH": {
+    "providers": [
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::init_n8n"
+      ],
+      "meilisearch": [
+        "meilisearch::add_documents"
+      ]
+    }
+  },
+  "CREATE_SYSTEM": {
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::create_project",
+        "illuminaresolutions::create_users",
+        "illuminaresolutions::create_users",
+        "illuminaresolutions::create_workflow"
+      ],
+      "modelcontextprotocol": [
+        "modelcontextprotocol::add_observations"
+      ]
+    }
+  },
+  "CREATE_VECTOR": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::create_entities",
+        "modelcontextprotocol::create_relations"
+      ]
+    }
+  },
+  "CREATE_WORKFLOW": {
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pipelines_create"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::create_variable",
+        "illuminaresolutions::create_variable",
+        "illuminaresolutions::create_workflow"
+      ],
+      "meilisearch": [
+        "meilisearch::create_index",
+        "meilisearch::create_key"
+      ]
+    }
+  },
+  "DELETE_APP": {
+    "providers": [
+      "digitalocean"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::delete_app"
+      ]
+    }
+  },
+  "DELETE_CREDENTIAL": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::delete_credential",
+        "illuminaresolutions::delete_credential"
+      ]
+    }
+  },
+  "DELETE_DB_ADMIN": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::delete_variable"
+      ]
+    }
+  },
+  "DELETE_MAINTENANCE": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::cancel_tasks"
+      ]
+    }
+  },
+  "DELETE_METADATA_TAG": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::delete_tag"
+      ]
+    }
+  },
+  "DELETE_SEARCH": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::delete_index",
+        "meilisearch::delete_key"
+      ]
+    }
+  },
+  "DELETE_SYSTEM": {
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::cancel_deployment"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::delete_execution",
+        "illuminaresolutions::delete_execution",
+        "illuminaresolutions::delete_project",
+        "illuminaresolutions::delete_project",
+        "illuminaresolutions::delete_tag",
+        "illuminaresolutions::delete_user",
+        "illuminaresolutions::delete_user",
+        "illuminaresolutions::delete_variable",
+        "illuminaresolutions::delete_workflow",
+        "illuminaresolutions::delete_workflow"
+      ],
+      "modelcontextprotocol": [
+        "modelcontextprotocol::delete_observations"
+      ]
+    }
+  },
+  "DELETE_VECTOR": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::delete_entities",
+        "modelcontextprotocol::delete_relations"
+      ]
+    }
+  },
+  "EXECUTE_APP": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::maintenance_off",
+        "heroku::maintenance_on",
+        "heroku::pg_psql",
+        "heroku::ps_restart",
+        "heroku::ps_restart"
+      ]
+    }
+  },
+  "EXECUTE_CREDENTIAL": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pg_credentials",
+        "heroku::pg_credentials"
+      ]
+    }
+  },
+  "EXECUTE_DB_ADMIN": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pg_backups",
+        "heroku::pg_backups",
+        "heroku::pg_locks",
+        "heroku::pg_maintenance",
+        "heroku::pg_upgrade",
+        "heroku::pg_upgrade"
+      ]
+    }
+  },
+  "EXECUTE_DOCUMENT": {
+    "providers": [
+      "upstash"
+    ],
+    "provider_tools": {
+      "upstash": [
+        "upstash::query_documentation"
+      ]
+    }
+  },
+  "EXECUTE_FILE": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::search_files"
+      ]
+    }
+  },
+  "EXECUTE_MODEL": {
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::test_tool"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::n8n_integration"
+      ]
+    }
+  },
+  "EXECUTE_SEARCH": {
+    "providers": [
+      "meilisearch",
+      "openbnb_org"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::health_check",
+        "meilisearch::search"
+      ],
+      "openbnb_org": [
+        "openbnb_org::airbnb_search",
+        "openbnb_org::airbnb_search"
+      ]
+    }
+  },
+  "EXECUTE_SYSTEM": {
+    "providers": [
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "upstash"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::activate_workflow",
+        "illuminaresolutions::activate_workflow",
+        "illuminaresolutions::deactivate_workflow",
+        "illuminaresolutions::deactivate_workflow"
+      ],
+      "modelcontextprotocol": [
+        "modelcontextprotocol::search_nodes"
+      ],
+      "upstash": [
+        "upstash::resolve_context7_library_id"
+      ]
+    }
+  },
+  "READ_ADDON": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::list_addon_plans",
+        "heroku::list_addon_services"
+      ]
+    }
+  },
+  "READ_APP": {
+    "providers": [
+      "digitalocean",
+      "heroku"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::download_logs",
+        "digitalocean::get_app",
+        "digitalocean::get_instance_size_by_slug",
+        "digitalocean::list_app_regions",
+        "digitalocean::list_instance_sizes"
+      ],
+      "heroku": [
+        "heroku::get_app_info",
+        "heroku::get_app_info",
+        "heroku::get_app_logs",
+        "heroku::list_addons",
+        "heroku::list_addons",
+        "heroku::list_apps",
+        "heroku::list_apps",
+        "heroku::list_private_spaces",
+        "heroku::list_private_spaces",
+        "heroku::list_teams",
+        "heroku::ps_list",
+        "heroku::ps_list",
+        "heroku::ps_scale"
+      ]
+    }
+  },
+  "READ_CREDENTIAL": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::get_credential_schema",
+        "illuminaresolutions::get_credential_schema"
+      ]
+    }
+  },
+  "READ_DB_ADMIN": {
+    "providers": [
+      "heroku",
+      "illuminaresolutions",
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::list_ai_available_models",
+        "heroku::list_teams",
+        "heroku::pg_locks",
+        "heroku::pg_maintenance",
+        "heroku::pipelines_list"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::list_projects",
+        "illuminaresolutions::list_variables",
+        "illuminaresolutions::list_variables",
+        "illuminaresolutions::list_workflows",
+        "illuminaresolutions::list_workflows"
+      ],
+      "meilisearch": [
+        "meilisearch::get_chat_workspaces",
+        "meilisearch::get_keys",
+        "meilisearch::get_tasks",
+        "meilisearch::list_indexes"
+      ]
+    }
+  },
+  "READ_FILE": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::directory_tree",
+        "modelcontextprotocol::get_file_info",
+        "modelcontextprotocol::list_allowed_directories",
+        "modelcontextprotocol::list_directory",
+        "modelcontextprotocol::list_directory_with_sizes",
+        "modelcontextprotocol::read_file",
+        "modelcontextprotocol::read_media_file",
+        "modelcontextprotocol::read_multiple_files",
+        "modelcontextprotocol::read_text_file"
+      ]
+    }
+  },
+  "READ_ISSUE": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::get_task"
+      ]
+    }
+  },
+  "READ_MAINTENANCE": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::get_addon_info",
+        "heroku::get_addon_info"
+      ]
+    }
+  },
+  "READ_MESSAGE": {
+    "providers": [
+      "heroku",
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::get_app_logs"
+      ],
+      "meilisearch": [
+        "meilisearch::get_chat_workspace_settings"
+      ]
+    }
+  },
+  "READ_METADATA_TAG": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::get_tag",
+        "illuminaresolutions::get_workflow_tags",
+        "illuminaresolutions::list_tags",
+        "illuminaresolutions::list_tags"
+      ]
+    }
+  },
+  "READ_MODEL": {
+    "providers": [
+      "langfuse"
+    ],
+    "provider_tools": {
+      "langfuse": [
+        "langfuse::get_prompt",
+        "langfuse::get_prompts"
+      ]
+    }
+  },
+  "READ_SEARCH": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::get_connection_settings",
+        "meilisearch::get_documents",
+        "meilisearch::get_health_status",
+        "meilisearch::get_index_metrics",
+        "meilisearch::get_settings",
+        "meilisearch::get_stats",
+        "meilisearch::get_system_info",
+        "meilisearch::get_version"
+      ]
+    }
+  },
+  "READ_SYSTEM": {
+    "providers": [
+      "digitalocean",
+      "illuminaresolutions",
+      "modelcontextprotocol",
+      "openbnb_org"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::get_deployment"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::get_execution",
+        "illuminaresolutions::get_execution",
+        "illuminaresolutions::get_tag",
+        "illuminaresolutions::get_user",
+        "illuminaresolutions::get_user",
+        "illuminaresolutions::list_projects",
+        "illuminaresolutions::list_users",
+        "illuminaresolutions::list_users"
+      ],
+      "modelcontextprotocol": [
+        "modelcontextprotocol::open_nodes"
+      ],
+      "openbnb_org": [
+        "openbnb_org::airbnb_listing_details"
+      ]
+    }
+  },
+  "READ_VECTOR": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::read_graph"
+      ]
+    }
+  },
+  "READ_WORKFLOW": {
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pg_ps",
+        "heroku::pipelines_info"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::get_workflow",
+        "illuminaresolutions::get_workflow",
+        "illuminaresolutions::get_workflow_tags",
+        "illuminaresolutions::list_executions",
+        "illuminaresolutions::list_executions"
+      ]
+    }
+  },
+  "UPDATE_ADDON": {
+    "providers": [
+      "digitalocean"
+    ],
+    "provider_tools": {
+      "digitalocean": [
+        "digitalocean::update_app_alert_destinations"
+      ]
+    }
+  },
+  "UPDATE_APP": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::ps_scale",
+        "heroku::rename_app",
+        "heroku::rename_app"
+      ]
+    }
+  },
+  "UPDATE_DATABASE": {
+    "providers": [
+      "heroku"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pg_psql"
+      ]
+    }
+  },
+  "UPDATE_FILE": {
+    "providers": [
+      "modelcontextprotocol"
+    ],
+    "provider_tools": {
+      "modelcontextprotocol": [
+        "modelcontextprotocol::edit_file",
+        "modelcontextprotocol::move_file"
+      ]
+    }
+  },
+  "UPDATE_MESSAGE": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::update_chat_workspace_settings"
+      ]
+    }
+  },
+  "UPDATE_METADATA_TAG": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::update_tag",
+        "illuminaresolutions::update_tag",
+        "illuminaresolutions::update_workflow_tags",
+        "illuminaresolutions::update_workflow_tags"
+      ]
+    }
+  },
+  "UPDATE_SEARCH": {
+    "providers": [
+      "meilisearch"
+    ],
+    "provider_tools": {
+      "meilisearch": [
+        "meilisearch::update_connection_settings",
+        "meilisearch::update_settings"
+      ]
+    }
+  },
+  "UPDATE_SYSTEM": {
+    "providers": [
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "illuminaresolutions": [
+        "illuminaresolutions::update_project",
+        "illuminaresolutions::update_project",
+        "illuminaresolutions::update_workflow"
+      ]
+    }
+  },
+  "UPDATE_WORKFLOW": {
+    "providers": [
+      "heroku",
+      "illuminaresolutions"
+    ],
+    "provider_tools": {
+      "heroku": [
+        "heroku::pipelines_promote"
+      ],
+      "illuminaresolutions": [
+        "illuminaresolutions::update_workflow"
+      ]
+    }
+  }
+}

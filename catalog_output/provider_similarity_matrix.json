@@ -1,0 +1,74 @@
+{
+  "digitalocean": {
+    "heroku": 0.1,
+    "illuminaresolutions": 0.08,
+    "langfuse": 0.0,
+    "meilisearch": 0.0,
+    "modelcontextprotocol": 0.1333,
+    "openbnb_org": 0.1429,
+    "upstash": 0.0
+  },
+  "heroku": {
+    "digitalocean": 0.1,
+    "illuminaresolutions": 0.1562,
+    "langfuse": 0.0,
+    "meilisearch": 0.12,
+    "modelcontextprotocol": 0.0,
+    "openbnb_org": 0.0,
+    "upstash": 0.0
+  },
+  "illuminaresolutions": {
+    "digitalocean": 0.08,
+    "heroku": 0.1562,
+    "langfuse": 0.0,
+    "meilisearch": 0.1,
+    "modelcontextprotocol": 0.1429,
+    "openbnb_org": 0.0455,
+    "upstash": 0.0455
+  },
+  "langfuse": {
+    "digitalocean": 0.0,
+    "heroku": 0.0,
+    "illuminaresolutions": 0.0,
+    "meilisearch": 0.0,
+    "modelcontextprotocol": 0.0,
+    "openbnb_org": 0.0,
+    "upstash": 0.0
+  },
+  "meilisearch": {
+    "digitalocean": 0.0,
+    "heroku": 0.12,
+    "illuminaresolutions": 0.1,
+    "langfuse": 0.0,
+    "modelcontextprotocol": 0.0,
+    "openbnb_org": 0.0769,
+    "upstash": 0.0
+  },
+  "modelcontextprotocol": {
+    "digitalocean": 0.1333,
+    "heroku": 0.0,
+    "illuminaresolutions": 0.1429,
+    "langfuse": 0.0,
+    "meilisearch": 0.0,
+    "openbnb_org": 0.0833,
+    "upstash": 0.0833
+  },
+  "openbnb_org": {
+    "digitalocean": 0.1429,
+    "heroku": 0.0,
+    "illuminaresolutions": 0.0455,
+    "langfuse": 0.0,
+    "meilisearch": 0.0769,
+    "modelcontextprotocol": 0.0833,
+    "upstash": 0.0
+  },
+  "upstash": {
+    "digitalocean": 0.0,
+    "heroku": 0.0,
+    "illuminaresolutions": 0.0455,
+    "langfuse": 0.0,
+    "meilisearch": 0.0,
+    "modelcontextprotocol": 0.0833,
+    "openbnb_org": 0.0
+  }
+}
